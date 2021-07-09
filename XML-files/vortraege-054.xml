@@ -206,7 +206,7 @@
                     mit der <ref target="http://www.bbaw.de">Berlin-Brandenburgischen Akademie der
                     Wissenschaften</ref> wird gerade eine Schnittstelle zwischen <hi
                     rend="italic">XTriples</hi> und <hi rend="italic"
-                    ><ref target="http://correspsearch.bbaw.de">correspSearch</ref></hi>, dem Webservice der BBAW zur dezentralen
+                    ><ref target="http://correspsearch.bbaw.de"><rs key="CorrespSearch" ana="#URL">correspSearch</rs></ref></hi>, dem Webservice der BBAW zur dezentralen
                     Aggregation digitaler Briefeditionen, implementiert. </p>
                     <p>Folgende Beispiele geben einen ersten Überblick über die unterschiedlichen Anwendungsgebiete von
                       <hi rend="italic">XTriples</hi>:
@@ -218,7 +218,7 @@
                         <ref target="http://xtriples.spatialhumanities.de/examples/dh/epidat/index.html">http://xtriples.spatialhumanities.de/examples/dh/epidat/index.html</ref>
                       </item>
                       <item>Semantische Extraktion und SVG-Visualisierung eines Briefnetzwerks (Teilbestand der Korrespondenz Goethes aus den in
-                        <hi rend="italic">correspSearch</hi> aggregierten CMI-Daten bei gleichzeitiger
+                        <hi rend="italic"><rs key="CorrespSearch">correspSearch</rs></hi> aggregierten CMI-Daten bei gleichzeitiger
                         <hi rend="italic">on-the-fly</hi> Einbeziehung der RDF-Schnittstellen von
                         <hi rend="italic">GND</hi> und
                         <hi rend="italic">Geonames</hi>):
@@ -226,7 +226,7 @@
                         <ref target="http://bit.ly/1LKK1dv">http://bit.ly/1LKK1dv</ref>
                       </item>
                       <item>Beispielhafte semantische Extraktion und Visualisierung europäischer
-                        Kommunikationsnetzwerke auf Basis der <hi rend="italic">correspSearch</hi>
+                        Kommunikationsnetzwerke auf Basis der <hi rend="italic"><rs key="CorrespSearch" ana="#URL">correspSearch</rs></hi>
                         TEI / CMI-Daten: <lb/>
                         <ref
                           target="http://metacontext.github.io/presentation-correspsearch-xtriples/viz/map.html"

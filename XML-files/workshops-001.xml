@@ -413,8 +413,8 @@
                           Zeitalter: Zwischen wissenschaftlicher Spezialdisziplin und 'Catalog
                           Enrichment' (= Zeitschrift für Bibliothek<span></span>swesen und Bibliographie Sonderband
                           118). Frankfurt am Main: Vittorio Klostermann 19-26.</bibl>
-                          <bibl rend="DH"><hi rend="bold"><rs key="Transkribus" ana="#URL">Transkribus</rs></hi>. Universität Innsbruck <ref
-                          target="https://transkribus.eu/">https://transkribus.eu/</ref>.</bibl>
+                          <bibl rend="DH"><rs key="Transkribus" ana="#Bib.Soft #URL"><hi rend="bold">Transkribus</hi>. Universität Innsbruck <ref
+                          target="https://transkribus.eu/">https://transkribus.eu/</ref>.</rs></bibl>
                           <bibl rend="DH"><hi rend="bold">Wenger, Emanuel </hi>(2016): "Metasuche in
                           Wasserzeichendatenbanken (Bernstein-Projekt): Herausforderungen für die
                           Zusammenführung heterogener Wasserzeichen-Metadaten", in: Eckhardt, Wolfgang

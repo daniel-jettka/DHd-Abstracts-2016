@@ -242,27 +242,27 @@
                           München
                           <ref target="http://goethefind.cis.uni-muenchen.de/">http://goethefind.cis.uni-muenchen.de/
                           </ref> [18.02.2016]. </bibl>
-                          <bibl><hi rend="bold">Hadersbeck, Max / Pichler, Alois</hi> (eds.) (o. J.) <hi
+                          <bibl><rs key="WITTfind" ana="#Bib.Soft #URL #Agent"><hi rend="bold">Hadersbeck, Max / Pichler, Alois</hi> (eds.) (o. J.) <hi
                           rend="italic">FinderApp WiTTFind</hi>. Centrum für Informations- und
                           Sprachverarbeitung (CIS), Ludwig Maximilians Universität München &amp;
                           Wittgenstein Archives, University of Bergen <ref
                           target="http://wittfind.cis.uni-muenchen.de/"
                           >http://wittfind.cis.uni-muenchen.de/</ref> [letzter Zugriff 09. Januar
-                          2016].</bibl>
+                          2016].</rs></bibl>
                           <bibl>
-                            <hi rend="bold">Hadersbeck, Max, Pichler, Alois, Fink, Florian , Gjesdal,
+                            <rs key="WITTfind" ana="#Bib.Ref #URL #Agent"><hi rend="bold">Hadersbeck, Max, Pichler, Alois, Fink, Florian , Gjesdal,
                               Øyvind Liland</hi> (2014): "Wittgenstein's Nachlass. WiTTFind and
                               Wittgenstein advanced search tools (WAST)", in: <hi rend="italic">Digital
                               Access to Textual Cultural Heritage (DaTeCH 2014)</hi>, Madrid 91-96
                               <ref
                                 target="http://dblp.uni-trier.de/db/conf/datech/datech2014.html#HadersbeckPFG14"
                                 >http://dblp.uni-trier.de/db/conf/datech/datech2014.html#HadersbeckPFG14</ref>
-                                [letzter Zugriff 09. Januar 2016]. </bibl>
-                                <bibl><hi rend="bold">Hadersbeck, Max / Pichler, Alois / Fink, Florian / Bruder,
+                                [letzter Zugriff 09. Januar 2016]. </rs></bibl>
+                                <bibl><rs key="WITTfind" ana="#Bib.Ref #Agent"><hi rend="bold">Hadersbeck, Max / Pichler, Alois / Fink, Florian / Bruder,
                                   Daniel / Arends, Ina / Baiter, Johannes</hi> (2015): "Wittgensteins
                                   Nachlass. Erkenntnisse und Weiterentwicklung der FinderApp WiTTFind", in:
                                   <hi rend="italic">2. Tagung der Digital Humanities im deutschsprachigen
-                                    Raum 23.-27.2.2015</hi>, Graz.</bibl>
+                                    Raum 23.-27.2.2015</hi>, Graz.</rs></bibl>
                                     <bibl>
                                       <hi rend="bold">Ploeger, Lieke</hi> (2014): "Open Humanities Awards round 2
                                       – Winners announced", in: <hi rend="italic">DM2E. Digitised Manuscripts to

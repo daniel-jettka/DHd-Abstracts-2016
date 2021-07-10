@@ -161,9 +161,9 @@
                         GEMS 2011 Workshop on Geometrical Models of Natural Language Semantics @
                         EMNLP 2011</hi> 67–71. </bibl>
                         <bibl>
-                          <hi rend="bold">Jurish, Bryan</hi> (2015): "DiaCollo: On the trail of
+                          <rs key="DiaCollo" ana="#Bif.Ref #Agent"><hi rend="bold">Jurish, Bryan</hi> (2015): "DiaCollo: On the trail of
                           diachronic collocations", in: <hi rend="italic">Proceedings of the CLARIN
-                          Annual Conference 2015</hi> 28–31. </bibl>
+                          Annual Conference 2015</hi> 28–31. </rs></bibl>
                           <bibl>
                             <hi rend="bold">Kim, Yoon / Chiu, Yi-I / Hanaki, Kentaro / Hegde, Darshan /
                               Petrov, Slav</hi> (2014): "Temporal Analysis of Language through Neural

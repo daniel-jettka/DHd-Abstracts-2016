@@ -130,12 +130,12 @@
               <div type="bibliogr">
                 <listBibl>
                   <head>Bibliographie</head>
-                  <bibl>
-                    <hi rend="bold">correspSearch</hi> (2015): <hi rend="italic">correspSearch –
+                  <bibl><rs key="CorrsepSearch" ana="#Bib.Soft #URL"
+                    ><hi rend="bold">correspSearch</hi> (2015): <hi rend="italic">correspSearch –
                     Verzeichnisse von Briefeditionen durchsuchen</hi>. <ref
                     target="http://correspsearch.bbaw.de/search.xql?l=de"
                     >http://correspsearch.bbaw.de/search.xql?l=de</ref> [letzter Zugriff 15.
-                    Oktober 2015]. </bibl>
+                    Oktober 2015]. </rs></bibl>
                     <bibl>
                       <hi rend="bold">International Organization for Standardization</hi> (o. J.):
                       <hi rend="italic">Date and time format – ISO 8601</hi>. <ref

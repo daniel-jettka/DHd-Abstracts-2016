@@ -3,7 +3,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>CATMA - Eine Plattform zum kollaborativen und automatisierten Annotieren und Analysieren von Texten</title>
+        <title><rs key="CATMA">CATMA</rs> - Eine Plattform zum kollaborativen und automatisierten Annotieren und Analysieren von Texten</title>
         <author>
           <name>
             <surname>Bögel</surname>

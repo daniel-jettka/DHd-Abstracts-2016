@@ -130,7 +130,7 @@
               <div type="bibliogr">
                 <listBibl>
                   <head>Bibliographie</head>
-                  <bibl><rs key="CorrsepSearch" ana="#Bib.Soft #URL"
+                  <bibl><rs key="CorrespSearch" ana="#Bib.Soft #URL"
                     ><hi rend="bold">correspSearch</hi> (2015): <hi rend="italic">correspSearch –
                     Verzeichnisse von Briefeditionen durchsuchen</hi>. <ref
                     target="http://correspsearch.bbaw.de/search.xql?l=de"

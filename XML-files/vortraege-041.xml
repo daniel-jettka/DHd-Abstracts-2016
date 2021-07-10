@@ -3,7 +3,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>DiaCollo: diachronen Kollokationen auf der Spur</title>
+        <title><rs key="DiaCollo">DiaCollo</rs>: diachronen Kollokationen auf der Spur</title>
         <author>
           <name>
             <surname>Jurish</surname>
@@ -102,14 +102,14 @@
     <body>
       <div type="div1" rend="DH-Heading">
         <head>Abstract</head>
-        <p>Wir präsentieren <hi rend="italic">DiaCollo</hi>, ein Softwarewerkzeug zur
+        <p>Wir präsentieren <hi rend="italic"><rs key="DiaCollo">DiaCollo</rs></hi>, ein Softwarewerkzeug zur
         effizienten Extraktion, zum Vergleich und zur interaktiven Visualisierung von
         Kollokationen aus einem diachronen Textkorpus. Im Gegensatz zu konventioneller
-        Kollokationssoftware eignet sich <hi rend="italic">DiaCollo</hi> für die
+        Kollokationssoftware eignet sich <hi rend="italic"><rs key="DiaCollo">DiaCollo</rs></hi> für die
         Verarbeitung diachroner Kollokationsdaten: Kollokationspaare, deren
         Assoziationsstärke vom Zeitpunkt ihres Auftretens abhängt. Durch das Aufspüren
         von Veränderungen in den charakteristischen Kollokaten eines Worts im zeitlichen
-        Verlauf kann <hi rend="italic">DiaCollo</hi> dazu beitragen, ein klareres Bild
+        Verlauf kann <hi rend="italic"><rs key="DiaCollo">DiaCollo</rs></hi> dazu beitragen, ein klareres Bild
         von Veränderungsprozessen der Wortsemantik zu zeichnen.</p>
       </div>
       <div type="div1" rend="DH-Heading1">
@@ -126,30 +126,30 @@
           wir auf das Problem der automatischen Erstellung von Kollokationensprofilen
           (Church / Hanks 1990 und Evert 2005) in diachronen Korpora ein, indem wir ein
           neues, explizit für diesen Zweck entwickeltes Softwarewerkzeug <hi rend="italic"
-          >DiaCollo</hi> vorstellen, das dem Benutzer ermöglicht, für jede Abfrage
+          ><rs key="DiaCollo">DiaCollo</rs></hi> vorstellen, das dem Benutzer ermöglicht, für jede Abfrage
           selber die Granularität der diachronen Achse frei zu wählen. Im Gegensatz zu
           konventionellen Kollokationswerkzeugen wie dem <hi rend="italic"><ref
           target="http://zwei.dwds.de/wp">DWDS Wortprofil</ref></hi> (Didakowski /
           Geyken 2014) oder dem <hi rend="italic"><ref
           target="http://www.sketchengine.co.uk/">Sketch Engine</ref></hi>
-          (Kilgarriff / Tugwell 2002) eignet sich <hi rend="italic">DiaCollo</hi> zur
+          (Kilgarriff / Tugwell 2002) eignet sich <hi rend="italic"><rs key="DiaCollo">DiaCollo</rs></hi> zur
           Extraktion und Analyse diachroner Kollokationsdaten: Kollokationspaare, deren
           Assoziationsstärke von dem Zeitpunkt ihres Auftretens abhängt. Durch das
           Aufspüren von Veränderungen in den typischen Kollokaten eines Worts im
           zeitlichen Verlauf und Anwendung von J. R. Firths berühmtem Prinzip “ <hi
           rend="italic">you shall know a word by the company it keeps</hi>”, kann <hi
-          rend="italic">DiaCollo</hi> helfen, ein klareres Bild diachroner
+          rend="italic"><rs key="DiaCollo">DiaCollo</rs></hi> helfen, ein klareres Bild diachroner
           Veränderungen im Wortgebrauch zu liefern. </p>
         </div>
         <div type="div1" rend="DH-Heading1">
           <head>Implementierung</head>
-          <p><hi rend="italic">DiaCollo</hi> ist als modulare Perl Bibliothek implementiert,
+          <p><hi rend="italic"><rs key="DiaCollo">DiaCollo</rs></hi> ist als modulare Perl Bibliothek implementiert,
           einschließlich wiederverwendbaren Klassen zum Umgang mit nativen
-          Binärindexstrukturen. <hi rend="italic">DiaCollo</hi> Indizes sind für
+          Binärindexstrukturen. <hi rend="italic"><rs key="DiaCollo">DiaCollo</rs></hi> Indizes sind für
           Hochlastumgebungen geeignet, da kein persistenter Server-Prozess benötigt wird
           und jeglicher Laufzeitzugriff auf native Indexstrukturen über direkten
           Dateisystem I/O stattfindet. Über die programmatische API der Perl-Module hinaus
-          bietet <hi rend="italic">DiaCollo</hi> sowohl eine Befehlszeilenschnittstelle
+          bietet <hi rend="italic"><rs key="DiaCollo" ana="#URL">DiaCollo</rs></hi> sowohl eine Befehlszeilenschnittstelle
           als auch einen öffentlich zugänglichen RESTful Webservice mit einer
           formularbasierten Benutzerschnittstelle zur Auswertung von Datenbankanfragen und
           einer interaktiven Visualisierung der Anfrageergebnisse. Ein öffentlich
@@ -158,7 +158,7 @@
           vollständige Quellcode ist via <ref target="http://metacpan.org/release/DiaColloDB">CPAN</ref> erhältlich.</p>
           <div type="div2" rend="DH-Heading2">
             <head>Anfragen &amp; Parameter</head>
-            <p><hi rend="italic">DiaCollo</hi> ist ein anfrageorientierter Dienst. Er
+            <p><hi rend="italic"><rs key="DiaCollo">DiaCollo</rs></hi> ist ein anfrageorientierter Dienst. Er
             behandelt eine Benutzeranfrage als eine Menge von (<hi rend="italic">Parameter=Wert</hi>)-Paaren
             und liefert ein korrespondierendes Profil
             für den/die angefragten Term(e) zurück. Die Parameter werden wie bei einem
@@ -177,7 +177,7 @@
           </div>
           <div type="div2" rend="DH-Heading2">
             <head>Profile &amp; Diffs</head>
-            <p>Das Ergebnis einer einfachen <hi rend="italic">DiaCollo</hi> Anfrage wird als
+            <p>Das Ergebnis einer einfachen <hi rend="italic"><rs key="DiaCollo">DiaCollo</rs></hi> Anfrage wird als
             tabellarisches Profil der <hi rend="math">k</hi>-best Kollokate für
             den/die angefragte(n) Term(e) in jedem der angefragten Zeit-Subintervalle
             ausgegeben (“Epochen” oder “Slices”, e.g. Dekaden), die mit den Parameter
@@ -190,7 +190,7 @@
           </div>
           <div type="div2" rend="DH-Heading2">
             <head>Indizes, Attribute &amp; Aggregierung</head>
-            <p><hi rend="italic">DiaCollo</hi> benutzt eine interne “native” Indexstruktur
+            <p><hi rend="italic"><rs key="DiaCollo">DiaCollo</rs></hi> benutzt eine interne “native” Indexstruktur
             über alle Inhaltswörter des Eingabekorpus, um Kollokationsprofile zu
             berechnen. Jedes indizierte Wort wird als <hi rend="math">n</hi>-Tupel
             linguistisch relevanten Token- oder Dokumentattribute behandelt, zusätzlich
@@ -200,13 +200,13 @@
             <hi rend="italic">groupby</hi> werden als logische Konjunktionen von
             Suchkriterien bezüglich dieser Attribute interpretiert, um die genauen zu
             profilierenden Token-Tupel zu selegieren. Um eine feinkörnigere Auswahl von
-            Profilzielen zu ermöglichen, unterstützt DiaCollo den gesamten Umfang der
+            Profilzielen zu ermöglichen, unterstützt <rs key="DiaCollo">DiaCollo</rs> den gesamten Umfang der
             DDC-Abfragesprache (Sokirko 2003; Jurish et al. 2014), wenn die
-            DiaCollo-Instanz mit einem zugrundeliegenden DDC Server assoziiert ist. </p>
+            <rs key="DiaCollo">DiaCollo</rs>-Instanz mit einem zugrundeliegenden DDC Server assoziiert ist. </p>
           </div>
           <div type="div2" rend="DH-Heading2">
             <head>Scoring &amp; Pruning</head>
-            <p><hi rend="italic">DiaCollo</hi> weist jedem Kollokat
+            <p><hi rend="italic"><rs key="DiaCollo">DiaCollo</rs></hi> weist jedem Kollokat
             <hi rend="sameline"><hi rend="math">w</hi><hi rend="sub">2</hi></hi> eines unären Profils für einen Zielterm
             <hi rend="sameline"><hi rend="math">w</hi><hi rend="sub">1</hi></hi> mittels einer
             benutzerspezifizierten <hi rend="italic">Scorefunktion</hi> einen
@@ -246,7 +246,7 @@
           </div>
           <div type="div2" rend="DH-Heading2">
             <head>Ausgabe &amp; Visualisierung</head>
-            <p><hi rend="italic">DiaCollo</hi> unterstützt verschiedene Ausgabeformate für
+            <p><hi rend="italic"><rs key="DiaCollo">DiaCollo</rs></hi> unterstützt verschiedene Ausgabeformate für
             die zurückgelieferte Profildaten, darunter TAB-getrennten Text, natives JSON
             für die weitere automatische Verarbeitung sowie einfaches tabellarisches
             HTML. Zusätzlich zu den statischen tabellarischen Formaten bietet der
@@ -263,7 +263,7 @@
             1–3 zu finden.</p>
             <figure>
               <graphic url="041-1000020100000D27000007EEF2716672.png"/>
-              <p><hi rend="bold">Abb. 1</hi>: <hi rend="italic">DiaCollo</hi>
+              <p><hi rend="bold">Abb. 1</hi>: <hi rend="italic"><rs key="DiaCollo">DiaCollo</rs></hi>
               Zeitreihe für die zehn global besten nominale Hyponyme des GermaNet
               (Hamp / Feldweg 1997; Henrich / Hinrichs 2010) SynSets <hi
               rend="italic">Getränk</hi> unmittelbar links vom Verb <hi
@@ -276,30 +276,30 @@
           <head>Fallstudien</head>
           <div type="div2" rend="DH-Heading2">
             <head>Zeitgeschichte</head>
-            <p>Ein Anwendungsgebiet für <hi rend="italic">DiaCollo</hi> stellt die
+            <p>Ein Anwendungsgebiet für <hi rend="italic"><rs key="DiaCollo">DiaCollo</rs></hi> stellt die
             (zeit-)historische Forschung dar. Insbesondere politische Prozesse können
-            durch die zeitscheibenbasierte Analyse von DiaCollo auf neue Weise
-            beschrieben werden. Das Potenzial von <hi rend="italic">DiaCollo</hi> soll
+            durch die zeitscheibenbasierte Analyse von <rs key="DiaCollo">DiaCollo</rs> auf neue Weise
+            beschrieben werden. Das Potenzial von <hi rend="italic"><rs key="DiaCollo">DiaCollo</rs></hi> soll
             hier kurz am Beispiel des Begriffs “Krise” in der Wochenzeitung DIE ZEIT
             skizziert werden (Abbildung 2). Da der Begriff “Krise” eine inhärent
             instabile Situation bezeichnet, kann davon ausgegangen werden, dass die
             damit assoziierten Diskursumgebungen im zeitlichen Verlauf stark variieren.
             Dies sollte sich auch in den Kollokationsprofilen von <hi rend="italic"
-            >DiaCollo</hi> niederschlagen. Mittels <hi rend="italic">DiaCollo</hi>
+            ><rs key="DiaCollo">DiaCollo</rs></hi> niederschlagen. Mittels <hi rend="italic"><rs key="DiaCollo">DiaCollo</rs></hi>
             lassen sich Eigennamen (Personen, Orte, Institutionen) extrahieren, die als
             Kollokationspartner von “Krise” in der ZEIT auftreten. Eine Analyse der
             Zeitreihe dieser Kollokate zeigt, dass mittels <hi rend="italic"
-            >DiaCollo</hi> korrekt politische Krisen (etwa in den 2000ern “CDU”),
+            ><rs key="DiaCollo">DiaCollo</rs></hi> korrekt politische Krisen (etwa in den 2000ern “CDU”),
             ökonomische Krisen (in den 1980ern “AEG”, in den 1990ern die Finanzkrise in
             Südostasien), aber auch konflikthafte Krisen (z. B. Jugoslawien in den
             1990ern) ermittelt werden können. Je nach Granularität der Abfrage werden
             auch die Ergebnisse komplexer und damit auch für den Experten interessanter.
             Ihre Interpretation bedarf dann in der Regel weiterer manueller
-            Aufarbeitung, z.B. mithilfe der von DiaCollo bereitgestellten Verknüpfung
+            Aufarbeitung, z.B. mithilfe der von <rs key="DiaCollo">DiaCollo</rs> bereitgestellten Verknüpfung
             mit der zugrundeliegenden Textbasis.</p>
             <figure>
               <graphic url="041-1000020100000E5600000A451F2B5E32.png"/>
-              <p><hi rend="bold">Abb. 2</hi>: <hi rend="italic">DiaCollo</hi>
+              <p><hi rend="bold">Abb. 2</hi>: <hi rend="italic"><rs key="DiaCollo">DiaCollo</rs></hi>
               dynamische Tag-Cloud Visualisierung der zehn besten
               Eigennamenkollokaten für “Krise” in der Wochenzeitung <hi
               rend="italic">DIE ZEIT</hi> für die Epochen 1980-1989 (oben
@@ -309,7 +309,7 @@
           </div>
           <div type="div2" rend="DH-Heading2">
             <head>Lexikographie</head>
-            <p>Ein weiteres Anwendungsgebiet von <hi rend="italic">DiaCollo</hi> ist die
+            <p>Ein weiteres Anwendungsgebiet von <hi rend="italic"><rs key="DiaCollo">DiaCollo</rs></hi> ist die
             Lexikographie. Da Kollokationen und die Beschreibung des Bedeutungsspektrums
             (Lesarten) eines Wortes eng miteinander zusammenhängen, lassen sich aus
             zeitlichen Verläufen von Kollokationen wichtige lexikographische Befunde
@@ -331,12 +331,12 @@
             target="http://zwei.dwds.de/wb/autofrei"
             >http://zwei.dwds.de/wb/autofrei</ref>). Diese Lesart ist durch
             Kollokationen wie ‘autofreie Wohnanlage’ oder ‘autofreie Siedlung’
-            gekennzeichnet. Mit <hi rend="italic">DiaCollo</hi> lassen sich beide
+            gekennzeichnet. Mit <hi rend="italic"><rs key="DiaCollo">DiaCollo</rs></hi> lassen sich beide
             Bedeutungen nicht nur unterscheiden, sondern auch in ihrem zeitlichen
             Verlauf nachverfolgen (Abbildung 3). </p>
             <figure>
               <graphic url="041-1000020100000E560000046D7CC7E4D7.png"/>
-              <p><hi rend="bold">Abb. 3</hi>: <hi rend="italic">DiaCollo</hi>
+              <p><hi rend="bold">Abb. 3</hi>: <hi rend="italic"><rs key="DiaCollo">DiaCollo</rs></hi>
               dynamische Bubble-Chart Visualisierung der zehn besten Kollokaten
               des Ajdketivs autofrei im aggregierten DWDS Zeitungskorpus für die
               Epochen 1985–1989 (links) und 1990–1994 (rechts).</p>
@@ -345,11 +345,11 @@
         </div>
         <div type="div1" rend="DH-Heading1">
           <head>Zusammenfassung</head>
-          <p>Wir haben hier <hi rend="italic">DiaCollo</hi> vorgestellt, ein neues
+          <p>Wir haben hier <hi rend="italic"><rs key="DiaCollo">DiaCollo</rs></hi> vorgestellt, ein neues
           Softwarewerkzeug für die effiziente Extraktion, den Vergleich und die
           interaktive Visualisierung von Kollokationen, speziell zugeschnitten auf die
           besonderen Anforderungen diachroner Textkorpora. Darüber hinaus haben wir anhand
-          von zwei Fallstudien skizziert, wie <hi rend="italic">DiaCollo</hi> als
+          von zwei Fallstudien skizziert, wie <hi rend="italic"><rs key="DiaCollo">DiaCollo</rs></hi> als
           modularer Webservice-Plugin Forscher in den Geistes- und Sozialwissenschaften
           dabei unterstützen kann, ein klareres Bild der diachronen Variation in der
           Verwendung eines Wortes zu erhalten.</p>

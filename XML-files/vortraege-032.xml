@@ -74,7 +74,7 @@
           <term>OCR</term>
           <term>17. Jahrhundert</term>
           <term>Texterfassung</term>
-          <term>Ocropus</term>
+          <term><rs key="OCRopus">Ocropus</rs></term>
           <term>Tesseract</term>
         </keywords>
         <keywords scheme="ConfTool" n="topics">
@@ -122,8 +122,8 @@
           das ursprünglich von Hewlett-Packard entwickelte und heute von Google
           betreute <hi rend="italic">Tesseract</hi> (GitHub 2016a) und das
           ursprünglich am DFKI Kaiserslautern entwickelte <hi rend="italic"
-          >OCRopus</hi> (GitHub 2016b). </p>
-          <p>Grundsätzlich lassen sich bei OCR zwei unterschiedliche Erkennungsansätze unterscheiden: zeichenorientierte Verfahren wie Tesseract vergleichen das Bild eines Zeichens Pixel für Pixel mit einer Datenbasis (dem sog. Modell) und geben das ähnlichste Zeichen zurück. Sequenzorientierte (segmentierungsfreie) Verfahren wie OCRopus legen ein Raster fester Größe über eine Zeile und bestimmen anhand der Folgen der einzelnen Spalten, repräsentiert als Bitvektoren (0 entspricht weiß, 1 schwarz) die wahrscheinlichste Zeichensequenz. </p>
+          ><rs key="OCRopus" ana="#Bib.Soft">OCRopus</rs></hi> (GitHub 2016b). </p>
+          <p>Grundsätzlich lassen sich bei OCR zwei unterschiedliche Erkennungsansätze unterscheiden: zeichenorientierte Verfahren wie Tesseract vergleichen das Bild eines Zeichens Pixel für Pixel mit einer Datenbasis (dem sog. Modell) und geben das ähnlichste Zeichen zurück. Sequenzorientierte (segmentierungsfreie) Verfahren wie <rs key="OCRopus">OCRopus</rs> legen ein Raster fester Größe über eine Zeile und bestimmen anhand der Folgen der einzelnen Spalten, repräsentiert als Bitvektoren (0 entspricht weiß, 1 schwarz) die wahrscheinlichste Zeichensequenz. </p>
         </div>
         <div xml:id="h.jloxih9r95e7" type="div2" rend="DH-Heading2">
           <head>Gelegenheitsgedichte</head>
@@ -173,7 +173,7 @@
                 Erfassern transkribiert. Im Vergleich der beiden Textversionen werden die
                 Unterschiede ermittelt und die korrekte Version ausgewählt. Um den
                 Genauigkeitsgewinn durch die Mehrfacherfassung zu erhöhen, wurden zwei
-                paradigmatisch verschiedene OCR-Verfahren, Tesseract und OCRopus, mit
+                paradigmatisch verschiedene OCR-Verfahren, Tesseract und <rs key="OCRopus">OCRopus</rs>, mit
                 unterschiedlichen Stärken und Schwächen eingesetzt. Beide Open-Source-Programme
                 erlauben ein Training auf die vorwendeten Typen und die Anwendung spezifischer
                 OCR-Modelle. Dies ist wie Springmann et al. (2015) zeigen ein wesentlicher
@@ -236,7 +236,7 @@
                         <p>Für Beschneidung und Begradigung wurde das Programm <hi rend="italic"
                           >Scantailor</hi> (GitHub 2016 a) eingesetzt. Für die Binarisierung,
                           Artefaktbereinigung und Zeilenglättung wurde sowohl Scantailor als auch das
-                          in OCRopus enthaltene Werkzeug <hi rend="italic">nlbin</hi> verwendet. </p>
+                          in <rs key="OCRopus">OCRopus</rs> enthaltene Werkzeug <hi rend="italic">nlbin</hi> verwendet. </p>
                         </div>
                         <div xml:id="h.2pikwls1fou8" type="div2" rend="DH-Heading2">
                           <head>OLR</head>
@@ -247,7 +247,7 @@
                           </div>
                           <div xml:id="h.4hfubd3yu7tf" type="div2" rend="DH-Heading2">
                             <head>OCR</head>
-                            <p>Die Zeichenerkennung erfolgte sowohl mit OCRopus als auch mit Tesseract. Die erste Versuchsreihe basierte auf mitgelieferten Modellen. Für die zweite Versuchsreihe wurden die OCR-Programme mit Ground-Truth-Daten trainiert. Für das Training der OCRopus-Modelle wurde OCRopus eingesetzt. Dabei wurde für das Training aus Gründen der Modellvergleichbarkeit eine feste Anzahl von Iterationsschritten (
+                              <p>Die Zeichenerkennung erfolgte sowohl mit <rs key="OCRopus">OCRopus</rs> als auch mit Tesseract. Die erste Versuchsreihe basierte auf mitgelieferten Modellen. Für die zweite Versuchsreihe wurden die OCR-Programme mit Ground-Truth-Daten trainiert. Für das Training der <rs key="OCRopus">OCRopus</rs>-Modelle wurde <rs key="OCRopus">OCRopus</rs> eingesetzt. Dabei wurde für das Training aus Gründen der Modellvergleichbarkeit eine feste Anzahl von Iterationsschritten (
                               <hi rend="italic">n</hi>=30000) festgelegt. Die Tesseract-Modelle wurden mit Hilfe von
                               <hi rend="italic">VietOCR</hi> erstellt.
                             </p>
@@ -269,7 +269,7 @@
                           <p>Tabelle 1 gibt einen Überblick über die Ergebnisse der Evaluation bzgl. der
                             Fehlerrate auf Zeichenebene unter Berücksichtigung der Vorverarbeitung des
                             Trainings- und Testmaterials, der Modellklasse (standard vs. spezifisch) und der
-                            eingesetzten OCR-Software (OCRopus, Tesseract). Das beste (<hi
+                            eingesetzten OCR-Software (<rs key="OCRopus">OCRopus</rs>, Tesseract). Das beste (<hi
                             rend="bold color(38761D)">grün</hi>) und das schlechteste Ergebnis (<hi
                             rend="bold color(980000)">rot</hi>) sind hervorgehoben. Da wir keinen
                             Einfluss auf die Vorverarbeitung der Trainingsmaterialien der mitgelieferten
@@ -287,7 +287,7 @@
                                 OCRopus. Der sequenzorientierte Ansatz hat klare Vorteile bei der Erkennung von
                                 Schriftzeichen, die die typischen Charakteristika früher Drucke aufweisen. <ref type="note" target="n05" n="5">5</ref>
                               </p>
-                              <p>Desweiteren zeigt sich, dass die Vorverarbeitung mit nlbin für Tesseract sowohl auf Trainings- als auch auf Testebene jeweils schlechtere Ergebnisse bringt. Für OCRopus sind die Ergebnisse bzgl. der Vorverarbeitung differenzierter: Die beste Kombination liefert eine Vorverarbeitung des Trainingsmaterials mit nlbin bei einer nachfolgenden Vorverarbeitung des Testmaterials mit Scantailor. Unterschiede im Ergebnis der Vorverarbeitung beider Programme illustriert Abbildung 3.</p>
+                              <p>Desweiteren zeigt sich, dass die Vorverarbeitung mit nlbin für Tesseract sowohl auf Trainings- als auch auf Testebene jeweils schlechtere Ergebnisse bringt. Für <rs key="OCRopus">OCRopus</rs> sind die Ergebnisse bzgl. der Vorverarbeitung differenzierter: Die beste Kombination liefert eine Vorverarbeitung des Trainingsmaterials mit nlbin bei einer nachfolgenden Vorverarbeitung des Testmaterials mit Scantailor. Unterschiede im Ergebnis der Vorverarbeitung beider Programme illustriert Abbildung 3.</p>
                               <figure>
                                 <graphic n="1003" width="16.002cm" height="2.806347222222222cm" url="032-image3.png" rend="inline"/>
                                 <p> Abb. 3: Bild einer Textzeile nach der Vorverarbeitung mit nlbin (oben) und
@@ -301,7 +301,7 @@
                                     Qualitätsunterschied zwischen beiden OCR-Programmen ersichtlich. An
                                     einzelnen Stellen jedoch (z. B. Großbuchstaben am Anfang der Zeile im
                                     letzten Abschnitt) hat Tesseract Erkennungsvorteile.</p>
-                                    <p>Ausgehend von diesem Befund wurde der jeweils genaueste Text von OCRopus und Tesseract miteinander vereinigt. Es hat sich gezeigt, dass die Konfidenzen, die die Programme für jedes Zeichen zurückliefern, kein verlässliches Kriterium sind, um Konflikte aufzulösen. Die Fehlerrate nimmt zu. Die Strategie, Wörter bzw. Sequenzen zu bevorzugen, die sich im Referenzlexikon befinden, hat dagegen eine messbare Verbesserung mit sich gebracht. Die Anzahl der falsch erkannten Zeichen konnte um 14 % reduziert werden (Fehlerrate 3,34 %). Es ist zu vermuten, dass der Effekt größer wäre, wenn zwei OCR-Ergebnisse mit vergleichbarer Qualität vorlägen. Dies bleibt jedoch zum jetzigen Zeitpunkt für Drucke des 17. Jahrhunderts ein Desiderat.</p>
+                                    <p>Ausgehend von diesem Befund wurde der jeweils genaueste Text von <rs key="OCRopus">OCRopus</rs> und Tesseract miteinander vereinigt. Es hat sich gezeigt, dass die Konfidenzen, die die Programme für jedes Zeichen zurückliefern, kein verlässliches Kriterium sind, um Konflikte aufzulösen. Die Fehlerrate nimmt zu. Die Strategie, Wörter bzw. Sequenzen zu bevorzugen, die sich im Referenzlexikon befinden, hat dagegen eine messbare Verbesserung mit sich gebracht. Die Anzahl der falsch erkannten Zeichen konnte um 14 % reduziert werden (Fehlerrate 3,34 %). Es ist zu vermuten, dass der Effekt größer wäre, wenn zwei OCR-Ergebnisse mit vergleichbarer Qualität vorlägen. Dies bleibt jedoch zum jetzigen Zeitpunkt für Drucke des 17. Jahrhunderts ein Desiderat.</p>
                                   </div>
                                 </div>
                               </body>
@@ -310,7 +310,7 @@
                                   <note xml:id="n01" n="1">Verzeichnis der im deutschen Sprachraum erschienenen Drucke des 17. Jahrhunderts.</note>
                                   <note xml:id="n02" n="2">Vgl auch Dach (o. J.) in <ref target="http://www.zeno.org/Literatur/M/Dach,+Simon/Gedichte">http://www.zeno.org/Literatur/M/Dach,+Simon/Gedichte</ref> sowie <ref target="https://textgrid.de/digitale-bibliothek">TextGrid</ref> (2015).</note>
                                   <note xml:id="n03" n="3">„Ziesemers Dach-Ausgabe ist textlich zu wenig genau, um auch für die dort abgedruckten, fast ausnahmslos deutschsprachigen, Gedichte den Rückgriff auf die kasualen Einzeldrucke und andere zeitgenössische Ausgaben entbehren zu können. Jede Stichprobe erweist für jedes einzelne Gedicht Transkriptionsfehler und unerklärte Texteingriffe.“ (Walter 2008: 466)</note>
-                                  <note xml:id="n05" n="5">Für Frakturdrucke des 19. Jahrhunderts ist ein solch starker Unterschied zwischen den Tesseract und OCRopus nicht nachgewiesen.</note>
+                                  <note xml:id="n05" n="5">Für Frakturdrucke des 19. Jahrhunderts ist ein solch starker Unterschied zwischen den Tesseract und <rs key="OCRopus">OCRopus</rs> nicht nachgewiesen.</note>
                                 </div>
                                 <div type="bibliogr">
                                   <listBibl>

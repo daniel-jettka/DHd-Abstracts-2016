@@ -295,11 +295,11 @@
                             >Berlin-Brandenburgische Akademie der Wissenschaften</hi>
                             <ref target="http://www.bbaw.de/">http://www.bbaw.de/</ref> [letzter Zugriff
                             16. Februar 2016].</bibl>
-                            <bibl><hi rend="bold">correspSearch</hi> (o. J.): <hi rend="italic"
+                            <bibl><rs key="CorrespSearch" ana="#Bib.Soft #URL"><hi rend="bold">correspSearch</hi> (o. J.): <hi rend="italic"
                             >correspSearch</hi>. Search diverse letter editions <ref
                             target="http://correspsearch.bbaw.de/index.xql"
                             >http://correspsearch.bbaw.de/index.xql</ref> [letzter Zugriff 16.
-                            Februar 2016].</bibl>
+                            Februar 2016].</rs></bibl>
                             <bibl><hi rend="bold">Deutsche Inschriften Online</hi> (o. J.): <ref
                             target="http://www.inschriften.net">http://www.inschriften.net</ref>
                             [letzter Zugriff 16. Februar 2016]. </bibl>

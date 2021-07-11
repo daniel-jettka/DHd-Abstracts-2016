@@ -337,10 +337,10 @@
                                       >ScanTailor</hi>
                                       <ref target="http://scantailor.org">http://scantailor.org/</ref> [letzter
                                       Zugriff 15. Oktober 2015].</bibl>
-                                      <bibl><hi rend="bold">GitHub Inc.</hi> (2016b): <hi rend="italic">OCRopus</hi>
+                                      <bibl><rs key="OCRopus" ana="#Bib.Soft #URL"><hi rend="bold">GitHub Inc.</hi> (2016b): <hi rend="italic">OCRopus</hi>
                                       <ref target="https://github.com/tmbdev/ocropy"
                                         >https://github.com/tmbdev/ocropy</ref> [letzter Zugriff 15. Oktober
-                                        2015]. </bibl>
+                                        2015]. </rs></bibl>
                                         <bibl><hi rend="bold">GitHub Inc.</hi> (2016c): <hi rend="italic">Tesseract</hi>
                                         <ref target="https://github.com/tesseract-ocr"
                                           >https://github.com/tesseract-ocr</ref> [letzter Zugriff 15. Oktober

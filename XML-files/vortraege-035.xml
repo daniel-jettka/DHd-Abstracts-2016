@@ -151,15 +151,15 @@
               <div type="div1" rend="DH-Heading">
                 <head>Kombination zu Workflows - Vorverarbeitung</head>
                 <p>Voraussetzung für die Durchführung einer Differenzanalyse ist die Aufbereitung des Rohmaterials. Dabei müssen insbesondere die Wortfrequenzen der zugrunde liegenden Texte extrahiert werden. Damit sind vor allem Satzsegmentierung und Tokenisierung wichtige Vorverarbeitungsschritte. Darüber hinaus ist die Nutzung eines POS-Taggers zur Generierung von Wortartinformationen für erweiterte Analysen hilfreich.</p>
-                <p>Für derartige Verarbeitungen ist die bereits erwähnte verteilte Umgebung WebLicht
+                <p>Für derartige Verarbeitungen ist die bereits erwähnte verteilte Umgebung <rs key="WebLicht" ana="#Bib.Ref">WebLicht</rs>
                   (Hinrichs et al. 2010) ein wichtiges Hilfsmittel. Abbildung 2 stellt einen
-                  Überblick über eine WebLicht-basierte Prozesskette dar. Sie importiert die
+                  Überblick über eine <rs key="WebLicht">WebLicht</rs>-basierte Prozesskette dar. Sie importiert die
                   Plaintext-Dateien, konvertiert diese in ein internes Format (das Text Corpus
                   Format TCF), extrahiert Sätze und Wörter, annotiert Wortarten und zählt die
                   Häufigkeit aller vorkommenden Wörter.</p>
                   <figure>
                     <graphic url="035-10000000000004C4000000EA77294BF2.png"/>
-                    <p><hi rend="bold">Abb. 2</hi>: Vorverarbeitungskette in WebLicht. </p>
+                    <p><hi rend="bold">Abb. 2</hi>: Vorverarbeitungskette in <rs key="WebLicht">WebLicht</rs>. </p>
                   </figure>
                   <p>Diese Verarbeitung wurde auf der Basis der Ernst Jünger Texte für die Jahre 1919 bis 1933 durchgeführt. Als Resultat stehen die Worthäufigkeiten für jedes einzelne Jahr dieser Zeitspanne zur Verfügung. Darüber hinaus wurden die Referenztexte des DWDS in 15 Jahresscheiben zerlegt und jeweils für jedes Genre ein Teilkorpus erstellt. Diese 60 Einzelressourcen wurden anschließend mittels der bereits erläuterten Prozesskette aufbereitet.</p>
                 </div>
@@ -279,12 +279,12 @@
                                       (2008): <anchor xml:id="id_productTitle"/><anchor xml:id="id_title"/><hi
                                       rend="italic">Text Mining</hi>. Wissensrohstoff Text: Konzepte,
                                       Algorithmen, Ergebnisse. W3L-Verlag. </bibl>
-                                      <bibl>
+                                      <bibl><rs key="WebLicht" ana="#Bib.Ref #Agent">
                                         <hi rend="bold">Hinrichs, Marie / Zastrow, Thomas / Hinrichs, Erhard</hi>
                                         (2010): "WebLicht: Web-based LRT Services in a Distributed eScience
                                         Infrastructure", in: <hi rend="italic">Proceedings of the Seventh
                                         International Conference on Language Resources and Evaluation</hi> (LREC
-                                        2010), Malta. </bibl>
+                                        2010), Malta. </rs></bibl>
                                         <bibl>
                                           <hi rend="bold">Krauwer, Steven / Hinrichs, Erhard</hi> (2014): "The CLARIN
                                           Research Infrastructure: Resources and Tools for e-Humanities Scholars", in:

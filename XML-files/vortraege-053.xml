@@ -180,7 +180,7 @@
                   Spracherwerbskorpora und Korpora aus mehrsprachigen Kommunikationssituationen
                   (wie z. B. Dolmetschen). Die Daten werden interessierten Studierenden,
                   Forschenden und Lehrenden über das HZSK-Repositorium (Jettka / Stein 2014) als
-                  Korpora im EXMARaLDA-Format (Schmidt / Wörner 2014) zur Verfügung gestellt.
+                  Korpora im <rs key="EXMARaLDA" ana="#Bib.Ref #Agent">EXMARaLDA-Format (Schmidt / Wörner 2014)</rs> zur Verfügung gestellt.
                   Weitere Korpora wurden in jüngster Vergangenheit in die Bestände des HZSK
                   integriert. Etwa 600 Nutzer weltweit haben sich bislang für eine Nutzung dieser
                   Datenbestände angemeldet. </p>
@@ -227,7 +227,7 @@
                         <p rend="figure"><hi rend="bold">Abb. 5</hi>: Frage 16 – „Mit welchem / en
                         spezialisierten Transkriptionseditor / en arbeiten Sie?“</p>
                       </figure>
-                      <p>EXMARaLDA (regelmäßige Nutzung: 19%, gelegentlich: 27%), Praat (13% bzw. 22%) und FOLKER (13% bzw. 17%) sind bei letzteren die am häufigsten genutzten Tools. </p>
+                      <p><rs key="EXMARaLDA">EXMARaLDA</rs> (regelmäßige Nutzung: 19%, gelegentlich: 27%), Praat (13% bzw. 22%) und FOLKER (13% bzw. 17%) sind bei letzteren die am häufigsten genutzten Tools. </p>
                     </div>
                     <div type="div2" rend="DH-Heading2">
                       <head>Angebotsspezifischer Teil</head>
@@ -346,10 +346,10 @@
                                   Corpus of Spoken German - FOLK", in: <hi rend="italic">Proceedings of the
                                   Ninth International conference on Language Resources and Evaluation
                                   (LREC'14), Reykjavik, Iceland</hi> 383-387.</bibl>
-                                  <bibl><hi rend="bold">Schmidt, Thomas / Wörner, Kai </hi>(2014):"EXMARaLDA", in:
+                                  <bibl><rs key="EXMARaLDA" ana="#Bib.Ref #Agent"><hi rend="bold">Schmidt, Thomas / Wörner, Kai </hi>(2014):"EXMARaLDA", in:
                                   Durand, Jacques / Gut, Ulrike / Kristoffersen, Giert (eds.): <hi
                                   rend="italic">The Oxford Handbook of Corpus Phonology</hi>. Oxford: OUP
-                                  402-419.</bibl>
+                                  402-419.</rs></bibl>
                                   <bibl><hi rend="bold">Slavcheva, Adriana / Meißner, Cordula</hi> (2014):
                                   "Building and maintaining the GeWiss corpus – perspectives on the
                                   construction, sustainability and further enrichment of spoken corpora. A

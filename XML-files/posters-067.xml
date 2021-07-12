@@ -173,10 +173,10 @@
                     und Notation interaktionsbegleitender Phänomene (z. B. die Erfassung genutzter
                     Objekte, Kontextinformationen). Um das Problem der mehr oder weniger statischen
                     Beschreibung verbaler Interaktionen in Textdokumenten (Transkript) zu lösen,
-                    werden die Transkripte in das Tool EXMARaLDA (Schmidt / Wörner 2014) eingelesen.
-                    EXMARaLDA ermöglicht eine Mehrebenen-Annotation. Eine geeignete Annotation von
+                    werden die Transkripte in das Tool <rs key="EXMARaLDA" ana="#Bib.Ref #Agent">EXMARaLDA (Schmidt / Wörner 2014)</rs> eingelesen.
+                    <rs key="EXMARaLDA">EXMARaLDA</rs> ermöglicht eine Mehrebenen-Annotation. Eine geeignete Annotation von
                     MID in den Interaktionsausschnitten erfordert jedoch eine Erweiterung von
-                    EXMARaLDA. Die Erweiterung zielt auf eine größtmögliche Flexibilität in der
+                    <rs key="EXMARaLDA">EXMARaLDA</rs>. Die Erweiterung zielt auf eine größtmögliche Flexibilität in der
                     Annotation von MID-bezogenen Phänomenen als Voraussetzung für die
                     Identifizierung von Mustern (z. B. für MID-anzeigende verbale Thematisierungen). </p>
                     <p>Eine weitere methodische Neuerung ergibt sich mit der Unterscheidung von drei Typen von Dokumenten: Primär-, Sekundär- und Tertiärdokumente. </p>
@@ -200,7 +200,7 @@
                       für MID-bezogene Phänomene zu entwickelnde Annotationssystem orientiert sich an
                       dem in Trevisan (2014) entwickelten Mehrebenen-Annotationsansatz und adaptiert
                       ihn gegenstandsspezifisch. </p>
-                      <p>Im Laufe des Projektes sollen die Erweiterungen von EXMARaLDA erlauben, alle drei oben genannten Typen von Dokumenten in ein und dem selben Tool zu erfassen und bezogen aufeinander zu analysieren (bisher fehlt die Integration der Videos und der Scans als Teil der Primärdokumente).</p>
+                    <p>Im Laufe des Projektes sollen die Erweiterungen von <rs key="EXMARaLDA">EXMARaLDA</rs> erlauben, alle drei oben genannten Typen von Dokumenten in ein und dem selben Tool zu erfassen und bezogen aufeinander zu analysieren (bisher fehlt die Integration der Videos und der Scans als Teil der Primärdokumente).</p>
                       <p>Zu den Langzeitzielen der Toolentwicklung gehört, dass das Tool Forscher digital
                         dabei unterstützt, MID-bezogene Muster zu identifizieren und abzubilden. Die
                         Identifizierung und Abbildung dieser Muster soll durch das in Beziehung setzen
@@ -292,11 +292,11 @@
                                                     Thomas / Jakobs, Eva</hi>-<hi rend="bold">Maria</hi> (2015):
                                                     „Annotating Modality Interdependencies“, in: <hi rend="italic">Proceedings
                                                     of the GSCL 2015</hi>: 110-111. </bibl>
-                                                    <bibl>
+                                                    <bibl><rs key="EXMARaLDA" ana="#Bib.Ref #Agent">
                                                       <hi rend="bold">Schmidt, Thomas / Wörner, Kai </hi>(2014): „EXMARaLDA“, in:
                                                       Durand, Jacques / Gut, Ulrike / Kristoffersen, Gjert (eds.): <hi
                                                       rend="italic">Handbook on Corpus Phonology.</hi> Oxford University
-                                                      Press: 402-419. </bibl>
+                                                      Press: 402-419. </rs></bibl>
                                                       <bibl>
                                                         <hi rend="bold">Schmitt, Reinhold / Dausendschön-Gay, Ulrich</hi> (2015):
                                                         „Freiraum schaffen im Klassenzimmer: Fallbasierte methodologische

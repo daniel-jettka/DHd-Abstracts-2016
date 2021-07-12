@@ -90,34 +90,34 @@
           Werkzeuge, die in diesem Workflow zum Einsatz kommen, weiterentwickelt werden und
           ineinander spielen, sind die Digitalisierungssoftware <hi rend="italic">Goobi</hi>
           (<ref target="http://www.goobi.org/">Bonte</ref>) sowie die in Trier entwickelte
-          virtuelle Forschungsumgebung und Editionsplattform <hi rend="italic"
+          virtuelle Forschungsumgebung und Editionsplattform <rs key="FuD" ana="#Bib.Soft #URL"><hi rend="italic"
           >Forschungsnetzwerk und Datenbanksystem</hi> FuD (<ref
-          target="http://fud.uni-trier.de/de/">FuD 2014</ref>; Bamberg / Burch 2014) <hi
+          target="http://fud.uni-trier.de/de/">FuD 2014</ref></rs>; Bamberg / Burch 2014) <hi
           rend="italic">Goobi</hi> wird inzwischen von rund 50 Anwendern genutzt, mit <hi
-          rend="italic">FuD</hi> arbeiten zahlreiche vom TCDH betreute Editionsprojekte.
+          rend="italic"><rs key="FuD">FuD</rs></hi> arbeiten zahlreiche vom TCDH betreute Editionsprojekte.
           Über Standardschnittstellen können die Metadaten mitsamt Image-Digitalisaten der
           Handschriften automatisch abgerufen und übertragen werden.</p>
           <p>Im Schlegel-Projekt hat zunächst der Projektpartner in Dresden, die SLUB, unter der
             Leitung von Prof. Dr. Thomas Bürger seine Schlegeliana (rund 3.800 Briefe) von der
             zentralen Autographendatenbank <hi rend="italic">Kalliope</hi> nach <hi
             rend="italic">Goobi</hi>, wo die Image-Digitalisate der Autographen hinzugefügt
-            wurden, und von dort nach <hi rend="italic">FuD</hi> importiert, wo sie editorisch
+            wurden, und von dort nach <hi rend="italic"><rs key="FuD">FuD</rs></hi> importiert, wo sie editorisch
             bearbeitet werden können. Zugleich stehen die Autographen in den eigenen digitalen
             Sammlungen frei zur Verfügung. Auch die Universitäts- und Landesbibliothek Bonn hat
             als erster Pilotpartner des Schlegel-Projekts ihre Autographensammlung zu A. W.
             Schlegel (rund 350 Schreiben) über <hi rend="italic">Goobi</hi> nach <hi
-            rend="italic">FuD</hi> transferiert.</p>
+            rend="italic"><rs key="FuD">FuD</rs></hi> transferiert.</p>
             <p>Grundlegend für eine gelingende und nachhaltige Infrastrukturbildung ist die
               normierte Verzeichnung der Metadaten, so dass die einzelnen Systeme diese richtig
               erkennen und zuordnen und sie außerdem weiterverarbeitet werden können und die
               Edition mit anderen Projekten vernetzbar ist. Für die Autographen, die nach
               internationalen Standards (METS / EAD bzw. METS / MODS) in den Katalogen und
-              Datenbanken verzeichnet sind, wird eine Schnittstelle in <hi rend="italic">FuD</hi>
+              Datenbanken verzeichnet sind, wird eine Schnittstelle in <hi rend="italic"><rs key="FuD">FuD</rs></hi>
               implementiert, so dass eine konsistente Datenerhaltung zwischen den Katalogen und
-              <hi rend="italic">FuD</hi> – mithin in beide Richtungen – gewährleistet ist. Für
+              <hi rend="italic"><rs key="FuD">FuD</rs></hi> – mithin in beide Richtungen – gewährleistet ist. Für
               jene Briefdaten, die noch nicht auf diese Weise verfügbar sind, wird, nach der
-              Aufnahme und Bearbeitung in <hi rend="italic">FuD</hi>, ein Exportfilter entwickelt,
-              so dass sie aus <hi rend="italic">FuD</hi> nach <hi rend="italic">Kalliope</hi> und
+              Aufnahme und Bearbeitung in <hi rend="italic"><rs key="FuD">FuD</rs></hi>, ein Exportfilter entwickelt,
+              so dass sie aus <hi rend="italic"><rs key="FuD" ana="#Bib.Ref #Agent">FuD</rs></hi> nach <hi rend="italic">Kalliope</hi> und
               von hier aus in die lokalen Kataloge exportiert werden können (Bamberg / Burch 2014:
               293).</p>
               <p>Der geplante Vortrag möchte diesen im Schlegel-Projekt entwickelten Open-Source-Workflow anhand einiger Beispiele aus der digitalen Briefedition darstellen und dabei zeigen, dass eine solche Infrastrukturbildung, die Quellen aus den unterschiedlichsten Archiven in einer Plattform einheitlich strukturiert zusammenführt, um sie weiter verfüg- und vernetzbar zu machen, auch eine neue Erschließungstiefe eines umfangreichen Briefkorpus ermöglicht.</p>
@@ -126,24 +126,24 @@
               <div type="bibliogr">
                 <listBibl>
                   <head>Bibliographie</head>
-                  <bibl>
+                  <bibl><rs key="FuD" ana="#Bib.Ref #Agent">
                     <hi rend="bold">Bamberg, Claudia / Burch, Thomas</hi> (2014):
                     „Inventarisieren, Analysieren und Archivieren vernetzt. Digitalisierung und
                     Edition größerer Briefkorpora mit der virtuellen Editionsplattform
                     'Forschungsnetzwerk und Datenbanksystem' (FuD)“, in: Delf von Wolzogen,
                     Hanna / Falk, Rainer (eds.): <hi rend="italic">Fontanes Briefe ediert</hi>.
-                    Würzburg: Königshausen und Neumann 265–282. </bibl>
+                    Würzburg: Königshausen und Neumann 265–282. </rs></bibl>
                     <bibl>
                       <hi rend="bold">Bonte, Achim</hi> (ed.): <hi rend="italic">Goobi</hi>. SLUB:
                       Sächsische Landesbibliothek - Staats- und Universitätsbibliothek Dresden
                       <ref target="http://www.goobi.org/">http://www.goobi.org/</ref> [letzter
                       Zugriff 08. Januar 2016]. </bibl>
-                      <bibl>
+                      <bibl><rs key="FuD" ana="#Bib.Soft #URL">
                         <hi rend="bold">FuD</hi> (2014): <hi rend="italic">FuD</hi>. Die virtuelle
                         Forschungsumgebung für die Geisteswissenschaften. Trier Center for Digital
                         Humanities (TCDH) &amp; Forschungszentrum Europa (FZE). Universität Trier
                         <ref target="http://fud.uni-trier.de/de/"
-                          >http://fud.uni-trier.de/de/</ref> [letzter Zugriff 08. Januar 2016]. </bibl>
+                          >http://fud.uni-trier.de/de/</ref> [letzter Zugriff 08. Januar 2016]. </rs></bibl>
                           <bibl>
                             <hi rend="bold">Hochstrasser, Daniel</hi> (2014): „Anforderungen an digitale
                             Briefeditionen“, in: Delf von Wolzogen, Hanna / Falk, Rainer (eds.): <hi

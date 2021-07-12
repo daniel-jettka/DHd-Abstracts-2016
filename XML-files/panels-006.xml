@@ -269,8 +269,8 @@
                     Systeme wie das internetbasierte Artikelredaktionssystem für die Produktion
                     und Publikation von Wörterbüchern in dezentralen Arbeitsstellen, das
                     gemeinsam mit dem Forschungszentrum Europa und dem Sonderforschungsbereich
-                    600 entwickelte "<ref
-                    target="http://www.fud.uni-trier.de/">Forschungsnetzwerk und Datenbanksystem</ref>" (FuD 2015), die
+                    600 entwickelte "<rs key="FuD" ana="#URL"><ref
+                    target="http://www.fud.uni-trier.de/">Forschungsnetzwerk und Datenbanksystem</ref>" (FuD 2015)</rs>, die
                     Redaktions- und Publikationsplattform zur <ref target="http://www.ieg-ego.de/">Europäischen Geschichte Online</ref>
                     oder das
                     interaktive Werkzeug “<ref

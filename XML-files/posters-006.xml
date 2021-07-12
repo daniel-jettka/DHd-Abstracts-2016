@@ -284,14 +284,14 @@
                                         rend="italic">Proceedings of LREC 2010: Workshop on Language Resources:
                                         From Storyboard to Sustainability and LR Lifecycle Management</hi>,
                                         Malta. </bibl>
-                                        <bibl>
+                                        <bibl><rs key="EXMARaLDA" ana="#Bib.Ref #Agent #URL">
                                           <hi rend="bold">Schmidt, Thomas</hi> (2012): "EXMARaLDA and the FOLK tools –
                                           two toolsets for transcribing and annotating spoken language", in: <hi
                                           rend="italic">Proceedings of LREC2012</hi>
                                           <ref
                                             target="http://www.lrec-conf.org/proceedings/lrec2012/pdf/529_Paper.pdf"
                                             >http://www.lrec-conf.org/proceedings/lrec2012/pdf/529_Paper.pdf</ref>
-                                            [letzter Zugriff 18. September 2015]. </bibl>
+                                            [letzter Zugriff 18. September 2015]. </rs></bibl>
                                             <bibl><hi rend="bold">Schiller, Anne / Teufel, Simone / Stöckert, Christine</hi>
                                             (1999): <hi rend="italic">Guidelines für das Tagging deutscher Textcorpora
                                             mit STTS (Kleines und großes Tagset)</hi>. Universität Stuttgart:

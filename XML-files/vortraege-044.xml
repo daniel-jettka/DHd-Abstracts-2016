@@ -238,7 +238,7 @@
                                             <p>Die zu errichtende Infrastruktur basiert in vielerlei Hinsicht auf den Vorarbeiten des
                                               HZSK sowie generell auf vorangegangenen Erkenntnissen aus dem Aufbau digitaler
                                               Forschungsumgebungen. Große Teile der gewünschten Funktionalitäten wurden bisher in Form
-                                              von Standalone-Werkzeugen (bspw. <ref target="http://www.exmaralda.org">EXMARaLDA</ref>)
+                                              von Standalone-Werkzeugen (bspw. <rs key="EXMARaLDA" ana="#URL"><ref target="http://www.exmaralda.org">EXMARaLDA</ref></rs>)
                                               oder Webapplikationen (bspw. als Teil der CLARIN-D-Infrastruktur) am HZSK entwickelt und
                                               eingesetzt. Einen integralen Bestandteil der Infrastruktur bildet ein Repositorium, mit
                                               dessen Hilfe die nachhaltige Datenvorhaltung gewährleistet werden kann. Weitere
@@ -293,10 +293,10 @@
                                                   <bibl><hi rend="bold">INEL</hi> (2015): <hi rend="italic">Grammatiken, Korpora, Sprachtechnologie
                                                   für indigene nordeurasische Sprachen</hi>. Förderantrag, eingereicht bei der Union der deutschen
                                                   Akademien der Wissenschaften.</bibl>
-                                                  <bibl><hi rend="bold">Hedeland, Hanna / Lehmberg, Timm / Schmidt, Thomas / Wörner,
+                                                  <bibl><rs key="EXMARaLDA" ana="#Bib.Ref #Agent #URL"><hi rend="bold">Hedeland, Hanna / Lehmberg, Timm / Schmidt, Thomas / Wörner,
                                                     Kai</hi> (o.J.): <hi rend="italic">EXMARaLDA</hi>. Werkzeuge für mündliche Korpora
                                                     <ref target="http://www.exmaralda.org/">http://www.exmaralda.org/</ref> [letzter
-                                                    Zugriff 16. Februar 2016].</bibl>
+                                                    Zugriff 16. Februar 2016].</rs></bibl>
                                                     <bibl><hi rend="bold">HZSK</hi> (o.J.): <hi rend="italic">Hamburger Zentrum für
                                                     Sprachkorpora</hi>
                                                     <ref target="https://corpora.uni-hamburg.de/drupal/"

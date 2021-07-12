@@ -81,8 +81,8 @@
             einer historisch-kritischen Ausgabe (kritische Edition) vorstellen. Leider wird
             dieser Weg aus Unwissenheit bzw. wegen falscher oder schlicht veralteter
             Informationen bzgl. des Funktionsumfangs viel zu selten beschritten. Umso
-            erfreulicher sind Forschungs- und Arbeitsumgebungen wie <ref
-            target="http://fud.uni-trier.de/de/"><hi rend="italic">FuD</hi></ref> oder
+            erfreulicher sind Forschungs- und Arbeitsumgebungen wie <rs key="FuD" ana="#URL"><ref
+            target="http://fud.uni-trier.de/de/"><hi rend="italic">FuD</hi></ref></rs> oder
             <ref target="http://www.bbaw.de/telota/software/ediarum"><hi rend="italic"
               >ediarum</hi></ref>, die am Ende des editorischen XML-basierten
               Workflows eine mit TeX erzeugte PDF-Datei zur Kontrolle bzw. als Vorstufe des
@@ -207,12 +207,12 @@
                                         rend="italic">Editionswissenschaft: eine Einführung in Methode und
                                         Praxis der Edition neuerer Texte</hi> (= Reclams Universal-Bibliothek
                                         17603). Stuttgart: Philipp Reclam jun. </bibl>
-                                        <bibl><hi rend="bold">Trier Center for Digital Humanities (TCDH) /
+                                        <bibl><rs key="FuD" ana="#Bib.Soft #Agent #URL"><hi rend="bold">Trier Center for Digital Humanities (TCDH) /
                                           Forschungszentrum Europa (FZE)</hi> (2014): <hi rend="italic">FuD</hi>.
                                           Eine virtuelle Forschungsumgebung für die Geisteswissenschaften. Universität
                                           Trier <ref target="http://fud.uni-trier.de/de/"
                                           >http://fud.uni-trier.de/de/</ref> [letzter Zugriff 05. Februar
-                                          2016].</bibl>
+                                          2016].</rs></bibl>
                                         </listBibl>
                                       </div></back>
                                     </text>

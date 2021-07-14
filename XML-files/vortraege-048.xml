@@ -158,38 +158,39 @@
           </figure>
         </div>
         <div type="div2" rend="DH-Heading2">
-          <head>CATview: Strukturelle Übersicht </head>
+          <head><rs key="CATview">CATview</rs>: Strukturelle Übersicht </head>
           <p>Der oben beschriebene Textvergleich bildet die Datenbasis der integrierten interaktiven
-            Übersichts- und Navigationsleiste <ref target="http://catview.uzi.uni-halle.de"
-              >CATview</ref> (Pöckelmann et al. 2015). Die Synopse wird schematisch in CATview
+            Übersichts- und Navigationsleiste <rs key="CATView" ana="#URL #Bib.Ref #Bib.Soft #Agent"
+                ><ref target="http://catview.uzi.uni-halle.de">CATview</ref> (Pöckelmann et al.
+              2015)</rs>. Die Synopse wird schematisch in <rs key="CATview">CATview</rs>
             dargestellt, indem jedes Segment der Vergleichstexte als Rechteck abgebildet und
             entsprechend seiner Position in der Synopse angeordnet wird. Die Farbe der Rechtecke
             zeigt die Intensität der Überarbeitung an. Je stärker dabei ist die Veränderung des
-            Textsegments ausfällt, desto dunkler wird das Farbfeld dargestellt. So verschafft
-            CATview einen Überblick über die Struktur der Texte und die Verteilung der Unterschiede.
-            Zudem erleichtern weitere Funktionen wie die Verlinkung der Rechtecke mit den
-            entsprechenden Textsegmenten die Navigation in der Synopse. </p>
+            Textsegments ausfällt, desto dunkler wird das Farbfeld dargestellt. So verschafft <rs
+              key="CATview">CATview</rs> einen Überblick über die Struktur der Texte und die
+            Verteilung der Unterschiede. Zudem erleichtern weitere Funktionen wie die Verlinkung der
+            Rechtecke mit den entsprechenden Textsegmenten die Navigation in der Synopse. </p>
           <figure>
             <graphic url="048-10000201000004B0000000FBF1D9C2CF.png"/>
-            <p><hi rend="bold">Abb. 2</hi>: Die in <rs key="LERA">LERA</rs> integrierte CATview
-              stellt Struktur und Unterschiede zwischen den Textfassungen schematisch dar und
-              erleichtert die Navigation durch Verlinkungen und einen Bildlauf-Indikator
-              (orange).</p>
+            <p><hi rend="bold">Abb. 2</hi>: Die in <rs key="LERA">LERA</rs> integrierte <rs
+                key="CATview">CATview</rs> stellt Struktur und Unterschiede zwischen den
+              Textfassungen schematisch dar und erleichtert die Navigation durch Verlinkungen und
+              einen Bildlauf-Indikator (orange).</p>
           </figure>
         </div>
         <div type="div2" rend="DH-Heading2">
           <head>Wortwolken: Thematische Übersicht</head>
-          <p>Zusätzlich zum synoptischen Textvergleich und dessen Visualisierung in CATview kann die
-            Arbeitsumgebung <rs key="LERA">LERA</rs> für jede Textfassung eine interaktive Wortwolke
-            generieren, die einen Vergleich des Auftretens und der Häufigkeit von Schlagwörtern
-            ermöglicht und so einen Überblick über die Inhalte der jeweiligen Textfassung gibt.
-            Welche Wörter dabei angezeigt werden, hängt von den Nutzervorgaben ab. So kann
-            beispielsweise die Auswahl der Wörter auf einzelne Wortarten beschränkt <ref type="note"
-              target="n02" n="2">2</ref> oder eine Mindestlänge festgelegt werden. Zudem sind das
-            Bewertungskriterium (Häufigkeit, Tf-idf-Maß) und verschiedene Darstellungsformen
-            wählbar. Durch die Gegenüberstellung der Wortwolken aller Textfassungen wird das
-            Erkennen einer veränderte Wortwahl und Themensetzung zwischen den Textfassungen
-            erleichtert. </p>
+          <p>Zusätzlich zum synoptischen Textvergleich und dessen Visualisierung in <rs
+              key="CATview">CATview</rs> kann die Arbeitsumgebung <rs key="LERA">LERA</rs> für jede
+            Textfassung eine interaktive Wortwolke generieren, die einen Vergleich des Auftretens
+            und der Häufigkeit von Schlagwörtern ermöglicht und so einen Überblick über die Inhalte
+            der jeweiligen Textfassung gibt. Welche Wörter dabei angezeigt werden, hängt von den
+            Nutzervorgaben ab. So kann beispielsweise die Auswahl der Wörter auf einzelne Wortarten
+            beschränkt <ref type="note" target="n02" n="2">2</ref> oder eine Mindestlänge festgelegt
+            werden. Zudem sind das Bewertungskriterium (Häufigkeit, Tf-idf-Maß) und verschiedene
+            Darstellungsformen wählbar. Durch die Gegenüberstellung der Wortwolken aller
+            Textfassungen wird das Erkennen einer veränderte Wortwahl und Themensetzung zwischen den
+            Textfassungen erleichtert. </p>
           <figure>
             <graphic url="048-10000201000004B000000164CB71E413.png"/>
             <p><hi rend="bold">Abb. 3</hi>: Von <rs key="LERA">LERA</rs> generierte Wortwolken für
@@ -209,14 +210,14 @@
           explorativen Analyse an, von denen im Folgenden drei Kombinationsmöglichkeiten erläutert
           werden. </p>
         <div type="div2" rend="DH-Heading2">
-          <head>Kombination von CATview und Suchfunktion </head>
-          <p>Die Übersichtsleiste CATview zeigt die Überarbeitung der Textfassungen an und
-            vereinfacht die Navigation in umfangreichen Synopsen. Kombiniert man dieses Werkzeug mit
-            der Suchfunktion, werden die Treffer der Suche nicht nur farbig im Text unterlegt,
-            sondern ebenfalls in den Rechtecken der Übersichtsleiste angezeigt. So kann die
-            Verteilung eines Themas über den gesamten Text auf einen Blick erfasst werden. Mit
-            dieser Funktion lassen sich zudem korrespondierende Textstellen, die nicht direkt
-            aligniert sind, leichter auffinden.</p>
+          <head>Kombination von <rs key="CATview">CATview</rs> und Suchfunktion </head>
+          <p>Die Übersichtsleiste <rs key="CATview">CATview</rs> zeigt die Überarbeitung der
+            Textfassungen an und vereinfacht die Navigation in umfangreichen Synopsen. Kombiniert
+            man dieses Werkzeug mit der Suchfunktion, werden die Treffer der Suche nicht nur farbig
+            im Text unterlegt, sondern ebenfalls in den Rechtecken der Übersichtsleiste angezeigt.
+            So kann die Verteilung eines Themas über den gesamten Text auf einen Blick erfasst
+            werden. Mit dieser Funktion lassen sich zudem korrespondierende Textstellen, die nicht
+            direkt aligniert sind, leichter auffinden.</p>
         </div>
         <div type="div2" rend="DH-Heading2">
           <head>Kombination von Suche und Wortwolken </head>
@@ -229,29 +230,30 @@
             angezeigten Begriffe in den Wortwolken löst die Suche aus. </p>
         </div>
         <div type="div2" rend="DH-Heading2">
-          <head>CATview in Kombination mit Wortwolken und Suchfunktion </head>
-          <p>CATview bietet ein Auswahlwerkzeug an, mit dem der Textbereich für die Analyse
-            eingeschränkt werden kann. Dieses Vorgehen bietet sich an, wenn eine Passage des Textes
-            wegen ihrer Überarbeitung oder der Verteilung von Suchbegriffen besonders interessant
-            erscheint. Durch die Beschränkung der Textauswahl verändert sich sofort die
-            Zusammensetzung der Wortwolken, da auch ihre Datengrundlage eingeschränkt wird, indem
-            nur noch die Begriffe aus der Auswahl betrachtet werden. Die Wortwolken werden für jede
-            neue Auswahl umgehend aktualisiert. Die Auswahlbox kann durch drag-and-drop in der
-            Übersichtsleiste bewegt werden. Durch diese Bewegung verändern sich folglich auch die
-            Wortwolken, sodass stets die Themen der aktuell gewählten Textpassage angezeigt werden.
-            Dadurch erzeugt die Bewegung eine Art interaktive Animation an Hand derer die
-            inhaltliche Entwicklung der Texte veranschaulicht wird. Dieses Vorgehen kann zu neuen
-            interessanten Fragestellungen führen.</p>
+          <head><rs key="CATview">CATview</rs> in Kombination mit Wortwolken und Suchfunktion </head>
+          <p><rs key="CATview">CATview</rs> bietet ein Auswahlwerkzeug an, mit dem der Textbereich
+            für die Analyse eingeschränkt werden kann. Dieses Vorgehen bietet sich an, wenn eine
+            Passage des Textes wegen ihrer Überarbeitung oder der Verteilung von Suchbegriffen
+            besonders interessant erscheint. Durch die Beschränkung der Textauswahl verändert sich
+            sofort die Zusammensetzung der Wortwolken, da auch ihre Datengrundlage eingeschränkt
+            wird, indem nur noch die Begriffe aus der Auswahl betrachtet werden. Die Wortwolken
+            werden für jede neue Auswahl umgehend aktualisiert. Die Auswahlbox kann durch
+            drag-and-drop in der Übersichtsleiste bewegt werden. Durch diese Bewegung verändern sich
+            folglich auch die Wortwolken, sodass stets die Themen der aktuell gewählten Textpassage
+            angezeigt werden. Dadurch erzeugt die Bewegung eine Art interaktive Animation an Hand
+            derer die inhaltliche Entwicklung der Texte veranschaulicht wird. Dieses Vorgehen kann
+            zu neuen interessanten Fragestellungen führen.</p>
 
           <figure>
             <graphic url="048-10000201000004B00000022CD77D3B09.png"/>
-            <p><hi rend="bold">Abb. 4</hi>: Beispiel für das Zusammenspiel von Suche, CATview und
-              den Wortwolken: Mit Hilfe des Auswahlwerkzeugs von CATview wurden die Absätze 143 und
-              144 markiert, was sogleich die Wortwolken aktualisiert und so eine grobe inhaltliche
-              Übersicht dieser aus H80 entfernten Textpassage erzeugt. Mit einem Klick auf den
-              Begriff „horreur“ in den Wolken wird eine Suche gestartet, die wiederum in CATview
-              durch die Markierung der Suchtreffer einen Hinweis dafür liefert, dass Teile der
-              Passage bei der Überarbeitung in den Absatz 137 eingeflossen sind. </p>
+            <p><hi rend="bold">Abb. 4</hi>: Beispiel für das Zusammenspiel von Suche, <rs
+                key="CATview">CATview</rs> und den Wortwolken: Mit Hilfe des Auswahlwerkzeugs von
+                <rs key="CATview">CATview</rs> wurden die Absätze 143 und 144 markiert, was sogleich
+              die Wortwolken aktualisiert und so eine grobe inhaltliche Übersicht dieser aus H80
+              entfernten Textpassage erzeugt. Mit einem Klick auf den Begriff „horreur“ in den
+              Wolken wird eine Suche gestartet, die wiederum in <rs key="CATview">CATview</rs> durch
+              die Markierung der Suchtreffer einen Hinweis dafür liefert, dass Teile der Passage bei
+              der Überarbeitung in den Absatz 137 eingeflossen sind. </p>
           </figure>
         </div>
       </div>
@@ -259,15 +261,15 @@
         <head>Zusammenfassung </head>
         <p>Neben der Grundfunktionalität zum Vergleich mehrerer Fassungen eines Textes entsprechend
           getroffener Nutzereinstellungen wurden in die Arbeitsumgebung <rs key="LERA">LERA</rs> mit
-          der Suchfunktion, der Übersichts- und Navigationsleiste CATview sowie den interaktiven
-          Wortwolken drei Komponenten zum Analysieren der gefundenen Unterschiede integriert, deren
-          Kombination das traditionelle Vorgehen der systematischen Textauswertung um die
-          ergebnisoffene Exploration erweitert. So führt das willkürliches Experimentieren mit
-          diesen Komponenten gegebenenfalls zu unerwarteten Erkenntnissen und neuen Hypothesen. Das
-          ist insbesondere für Nutzer von digitalen Editionen interessant, die oft andere
-          Fragestellungen verfolgen als die ursprünglichen Editoren. So werden das Nachvollziehen
-          von Argumentationsketten und die historische Veränderung von Diskursen im Zuge der
-          Überarbeitung von Texten effektiv unterstützt.</p>
+          der Suchfunktion, der Übersichts- und Navigationsleiste <rs key="CATview">CATview</rs>
+          sowie den interaktiven Wortwolken drei Komponenten zum Analysieren der gefundenen
+          Unterschiede integriert, deren Kombination das traditionelle Vorgehen der systematischen
+          Textauswertung um die ergebnisoffene Exploration erweitert. So führt das willkürliches
+          Experimentieren mit diesen Komponenten gegebenenfalls zu unerwarteten Erkenntnissen und
+          neuen Hypothesen. Das ist insbesondere für Nutzer von digitalen Editionen interessant, die
+          oft andere Fragestellungen verfolgen als die ursprünglichen Editoren. So werden das
+          Nachvollziehen von Argumentationsketten und die historische Veränderung von Diskursen im
+          Zuge der Überarbeitung von Texten effektiv unterstützt.</p>
       </div>
       <div type="div1" rend="DH-Heading1">
         <head>Anmerkungen </head>
@@ -318,14 +320,17 @@
                 target="http://dx.doi.org/10.1007/s13222-014-0173-y">Datenbank-Spektrum</ref></hi>
             15, 1: 25-31.</bibl>
           <bibl>
-            <hi rend="bold">Pöckelmann, Marcus / Medek (*Gießler), André / Molitor, Paul / Ritter,
-              Jörg</hi> (2015): "CATview - Supporting The Investigation Of Text Genesis Of Large
-            Manuscripts By An Overall Interactive Visualization Tool", in: <hi rend="italic">Digital
-              Humanities, DH2015, Sydney, Australia, 29.06.-03.07.2015</hi>. </bibl>
-          <bibl><hi rend="bold">Pöckelmann, Marcus / Molitor, Paul / Ritter, Jörg</hi> (2015): <hi
-              rend="italic">CATview</hi>. The Colored and Aligned Texts view <ref
-              target="http://catview.uzi.uni-halle.de/">http://catview.uzi.uni-halle.de/</ref>
-            [letzter Zugriff 15. Oktober 2015].</bibl>
+            <rs key="CATview" ana="#Bib.Ref"><hi rend="bold">Pöckelmann, Marcus / Medek (*Gießler),
+                André / Molitor, Paul / Ritter, Jörg</hi> (2015): "CATview - Supporting The
+              Investigation Of Text Genesis Of Large Manuscripts By An Overall Interactive
+              Visualization Tool", in: <hi rend="italic">Digital Humanities, DH2015, Sydney,
+                Australia, 29.06.-03.07.2015</hi>.</rs>
+          </bibl>
+          <bibl><rs key="CATview" ana="#Bib.Soft #URL #Agent"><hi rend="bold">Pöckelmann, Marcus /
+                Molitor, Paul / Ritter, Jörg</hi> (2015): <hi rend="italic">CATview</hi>. The
+              Colored and Aligned Texts view <ref target="http://catview.uzi.uni-halle.de/"
+                >http://catview.uzi.uni-halle.de/</ref> [letzter Zugriff 15. Oktober
+            2015].</rs></bibl>
           <bibl><hi rend="bold">Schmid, Helmut</hi>(1994-): <hi rend="italic">TreeTagger</hi>. A
             language independent part-of-speech tagger <ref
               target="http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/"

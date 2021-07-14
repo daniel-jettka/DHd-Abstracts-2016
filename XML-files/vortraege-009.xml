@@ -144,9 +144,9 @@
               >ÖNB 2015</ref>), die die Metadaten der online
               edierten Briefe entsprechend TEI Standards codiert. </p>
               <p>Wegweisend speziell für die Arbeit mit literarischen Nachlässen ist auch das
-                Virtual Research Environment (VRE) <ref target="http://salsah.org/"><hi
+                Virtual Research Environment (VRE) <rs key="SALSAH" ana="#URL #Agent"><ref target="http://salsah.org/"><hi
                 rend="italic">SALSAH </hi></ref> (System for Annotation and Linkage of
-                Sources in Arts and Humanities) des <hi rend="italic">Digital Humanities
+                Sources in Arts and Humanities)</rs> des <hi rend="italic">Digital Humanities
                 Lab</hi> der Universität Basel, das ähnlich dem System von Susan Schreibmans
                 <ref
                   target="http://v-machine.org/"><hi rend="italic">versioning machine</hi></ref> funktioniert.
@@ -276,10 +276,10 @@
                           (2007-2015): <hi rend="italic">Deutsches Textarchiv</hi>
                           <ref target="http://www.deutschestextarchiv.de/"
                             >www.deutschestextarchiv.de</ref>.</bibl>
-                            <bibl><hi rend="bold">Digital Humanities Lab der Universität Basel</hi>
+                            <bibl><rs key="SALSAH" ana="#Bib.Ref #URL #Agent"><hi rend="bold">Digital Humanities Lab der Universität Basel</hi>
                             (2009-2016): <hi rend="italic">SALSAH</hi>. System for Annotation and
                             Linkage of Sources in Arts and Humanities <ref target="http://salsah.org/"
-                            >http://salsah.org/</ref> [letzter Zugriff 09. Februar 2016].</bibl>
+                            >http://salsah.org/</ref> [letzter Zugriff 09. Februar 2016].</rs></bibl>
                             <bibl><hi rend="bold">Europeana Foundation</hi> (o. J.): <hi rend="italic"
                             >Europeana Collections</hi>. <ref
                             target="http://www.europeana.eu/portal/"

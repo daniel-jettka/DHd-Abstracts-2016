@@ -160,7 +160,7 @@
         <div type="div2" rend="DH-Heading2">
           <head><rs key="CATview">CATview</rs>: Strukturelle Übersicht </head>
           <p>Der oben beschriebene Textvergleich bildet die Datenbasis der integrierten interaktiven
-            Übersichts- und Navigationsleiste <rs key="CATView" ana="#URL #Bib.Ref #Bib.Soft #Agent"
+            Übersichts- und Navigationsleiste <rs key="CATview" ana="#URL #Bib.Ref #Bib.Soft #Agent"
                 ><ref target="http://catview.uzi.uni-halle.de">CATview</ref> (Pöckelmann et al.
               2015)</rs>. Die Synopse wird schematisch in <rs key="CATview">CATview</rs>
             dargestellt, indem jedes Segment der Vergleichstexte als Rechteck abgebildet und

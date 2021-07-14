@@ -291,8 +291,8 @@
                       <head>DH Lab Basel </head>
                       <p>Lukas Rosenthaler</p>
                       <p>Während die anderen Teilnehmer vor allem an Lösungen für XML / TEI-basierte
-                        digitale Editionen arbeiten, legt <ref target="http://salsah.org/">SALSAH</ref> (System for Annotation
-                        and Linkage of Sources in Arts and Humanities) den Schwerpunkt (zurzeit
+                        digitale Editionen arbeiten, legt <rs key="SALSAH" ana="#URL"><ref target="http://salsah.org/">SALSAH</ref> (System for Annotation
+                        and Linkage of Sources in Arts and Humanities)</rs> den Schwerpunkt (zurzeit
                         noch) auf die Verknüpfung und Verlinkung von vornehmlich digitalen
                         Faksimiles. </p>
                       </div>

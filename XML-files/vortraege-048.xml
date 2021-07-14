@@ -106,8 +106,8 @@
           (Schütz / Pöckelmann 2014). </p>
         <p>Für die Kollationierung verschiedener Textfassung gibt es bereits eine Reihe digitaler
           Werkzeuge. Drei der bekanntesten, <ref target="http://collatex.net">CollateX</ref>, <ref
-            target="http://www.juxtasoftware.org/">Juxta</ref> und <ref
-            target="http://www.tustep.uni-tuebingen.de/">TUSTEP</ref>, liefern für viele
+            target="http://www.juxtasoftware.org/">Juxta</ref> und <rs key="TUSTEP" ana="#URL"><ref
+              target="http://www.tustep.uni-tuebingen.de/">TUSTEP</ref></rs>, liefern für viele
           Fragestellungen gute Ergebnisse, unterscheiden sich in ihren Anwendungsszenarien aber
           erkennbar von <rs key="LERA">LERA</rs>. Während <rs key="LERA">LERA</rs> einen
           zweistufigen Ansatz verfolgt, bei dem vor dem detaillierten Textvergleich zunächst eine
@@ -118,15 +118,15 @@
           Visualisierungen die Unterschiede zu einer ausgewählten Leithandschrift auf, während <rs
             key="LERA">LERA</rs> für den direkten Vergleich mehrerer Textfassungen konzipiert wurde
           und stets die Textänderungen zwischen allen Fassungen darstellt. Der wohl vielseitigste
-          digitale Werkzeugkasten aus dem Bereich der Geisteswissenschaften, TUSTEP, bietet
-          ebenfalls Möglichkeiten zum Vergleich verschiedener Textfassungen. Allerdings erfordert
-          der Umgang mit dem textbasierten Interface eine längere Einarbeitungszeit, die sich
-          zumindest für einige Anwender durch die neu entwickelte XML-basierte Variante <ref
-            target="http://www.txstep.de">TXSTEP</ref> verringert. <rs key="LERA">LERA</rs> wurde
-          hingegen von Beginn an durch interaktive graphische Elemente als intuitiv bedienbare
-          Arbeitsumgebung entwickelt. Veränderte Vergleichsparameter sollen dabei durch schnelle
-          Neuberechnung eine direkte Präsentation des Ergebnisses ermöglichen und so zum
-          Experimentieren einladen. </p>
+          digitale Werkzeugkasten aus dem Bereich der Geisteswissenschaften, <rs key="TUSTEP"
+            >TUSTEP</rs>, bietet ebenfalls Möglichkeiten zum Vergleich verschiedener Textfassungen.
+          Allerdings erfordert der Umgang mit dem textbasierten Interface eine längere
+          Einarbeitungszeit, die sich zumindest für einige Anwender durch die neu entwickelte
+          XML-basierte Variante <ref target="http://www.txstep.de">TXSTEP</ref> verringert. <rs
+            key="LERA">LERA</rs> wurde hingegen von Beginn an durch interaktive graphische Elemente
+          als intuitiv bedienbare Arbeitsumgebung entwickelt. Veränderte Vergleichsparameter sollen
+          dabei durch schnelle Neuberechnung eine direkte Präsentation des Ergebnisses ermöglichen
+          und so zum Experimentieren einladen. </p>
       </div>
       <div type="div1" rend="DH-Heading1">
         <head>Explorative Analyse mit <rs key="LERA">LERA</rs>
@@ -340,10 +340,12 @@
               rend="italic">CollateX</hi>. Software for Collating Textual Sources <ref
               target="http://collatex.net/">http://collatex.net/</ref> [letzter Zugriff 15. Oktober
             2015].</bibl>
-          <bibl><hi rend="bold">Zentrum für Datenverarbeitung der Universität Tübingen</hi> (1978-):
-              <hi rend="italic">TUSTEP</hi>. Tuebingen System of Text Processing tools <ref
-              target="http://www.tustep.uni-tuebingen.de/">http://www.tustep.uni-tuebingen.de/</ref>
-            [letzter Zugriff 15. Oktober 2015].</bibl>
+          <bibl><rs key="TUSTEP" ana="#Bib.Soft #URL #Agent"><hi rend="bold">Zentrum für
+                Datenverarbeitung der Universität Tübingen</hi> (1978-): <hi rend="italic"
+                >TUSTEP</hi>. Tuebingen System of Text Processing tools <ref
+                target="http://www.tustep.uni-tuebingen.de/"
+                >http://www.tustep.uni-tuebingen.de/</ref> [letzter Zugriff 15. Oktober
+            2015].</rs></bibl>
           <bibl><hi rend="bold">Zentrum für Datenverarbeitung der Universität Tübingen / pagina GmbH
               Publikationstechnologien / Hochschule der Medien Stuttgart</hi> (2010-): <hi
               rend="italic">TXSTEP</hi>. Die XML-Version von TUSTEP <ref

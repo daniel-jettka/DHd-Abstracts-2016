@@ -117,7 +117,7 @@
               <hi rend="italic"><rs key="FuD">FuD</rs></hi> – mithin in beide Richtungen – gewährleistet ist. Für
               jene Briefdaten, die noch nicht auf diese Weise verfügbar sind, wird, nach der
               Aufnahme und Bearbeitung in <hi rend="italic"><rs key="FuD">FuD</rs></hi>, ein Exportfilter entwickelt,
-              so dass sie aus <hi rend="italic"><rs key="FuD" ana="#Bib.Ref #Agent">FuD</rs></hi> nach <hi rend="italic">Kalliope</hi> und
+              so dass sie aus <hi rend="italic"><rs key="FuD" ana="#Bib.Ref">FuD</rs></hi> nach <hi rend="italic">Kalliope</hi> und
               von hier aus in die lokalen Kataloge exportiert werden können (Bamberg / Burch 2014:
               293).</p>
               <p>Der geplante Vortrag möchte diesen im Schlegel-Projekt entwickelten Open-Source-Workflow anhand einiger Beispiele aus der digitalen Briefedition darstellen und dabei zeigen, dass eine solche Infrastrukturbildung, die Quellen aus den unterschiedlichsten Archiven in einer Plattform einheitlich strukturiert zusammenführt, um sie weiter verfüg- und vernetzbar zu machen, auch eine neue Erschließungstiefe eines umfangreichen Briefkorpus ermöglicht.</p>
@@ -126,7 +126,7 @@
               <div type="bibliogr">
                 <listBibl>
                   <head>Bibliographie</head>
-                  <bibl><rs key="FuD" ana="#Bib.Ref #Agent">
+                  <bibl><rs key="FuD" ana="#Bib.Ref">
                     <hi rend="bold">Bamberg, Claudia / Burch, Thomas</hi> (2014):
                     „Inventarisieren, Analysieren und Archivieren vernetzt. Digitalisierung und
                     Edition größerer Briefkorpora mit der virtuellen Editionsplattform

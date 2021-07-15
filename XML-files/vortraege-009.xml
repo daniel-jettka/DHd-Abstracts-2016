@@ -276,7 +276,7 @@
                           (2007-2015): <hi rend="italic">Deutsches Textarchiv</hi>
                           <ref target="http://www.deutschestextarchiv.de/"
                             >www.deutschestextarchiv.de</ref>.</bibl>
-                            <bibl><rs key="SALSAH" ana="#Bib.Ref #URL #Agent"><hi rend="bold">Digital Humanities Lab der Universität Basel</hi>
+                            <bibl><rs key="SALSAH" ana="#Bib.Ref"><hi rend="bold">Digital Humanities Lab der Universität Basel</hi>
                             (2009-2016): <hi rend="italic">SALSAH</hi>. System for Annotation and
                             Linkage of Sources in Arts and Humanities <ref target="http://salsah.org/"
                             >http://salsah.org/</ref> [letzter Zugriff 09. Februar 2016].</rs></bibl>

@@ -293,7 +293,7 @@
                                                   <bibl><hi rend="bold">INEL</hi> (2015): <hi rend="italic">Grammatiken, Korpora, Sprachtechnologie
                                                   für indigene nordeurasische Sprachen</hi>. Förderantrag, eingereicht bei der Union der deutschen
                                                   Akademien der Wissenschaften.</bibl>
-                                                  <bibl><rs key="EXMARaLDA" ana="#Bib.Ref #Agent #URL"><hi rend="bold">Hedeland, Hanna / Lehmberg, Timm / Schmidt, Thomas / Wörner,
+                                                  <bibl><rs key="EXMARaLDA" ana="#Bib.Ref"><hi rend="bold">Hedeland, Hanna / Lehmberg, Timm / Schmidt, Thomas / Wörner,
                                                     Kai</hi> (o.J.): <hi rend="italic">EXMARaLDA</hi>. Werkzeuge für mündliche Korpora
                                                     <ref target="http://www.exmaralda.org/">http://www.exmaralda.org/</ref> [letzter
                                                     Zugriff 16. Februar 2016].</rs></bibl>

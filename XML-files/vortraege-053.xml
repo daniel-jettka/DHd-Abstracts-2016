@@ -180,7 +180,7 @@
                   Spracherwerbskorpora und Korpora aus mehrsprachigen Kommunikationssituationen
                   (wie z. B. Dolmetschen). Die Daten werden interessierten Studierenden,
                   Forschenden und Lehrenden über das HZSK-Repositorium (Jettka / Stein 2014) als
-                  Korpora im <rs key="EXMARaLDA" ana="#Bib.Ref #Agent">EXMARaLDA-Format (Schmidt / Wörner 2014)</rs> zur Verfügung gestellt.
+                  Korpora im <rs key="EXMARaLDA" ana="#Bib.Ref">EXMARaLDA-Format (Schmidt / Wörner 2014)</rs> zur Verfügung gestellt.
                   Weitere Korpora wurden in jüngster Vergangenheit in die Bestände des HZSK
                   integriert. Etwa 600 Nutzer weltweit haben sich bislang für eine Nutzung dieser
                   Datenbestände angemeldet. </p>
@@ -346,7 +346,7 @@
                                   Corpus of Spoken German - FOLK", in: <hi rend="italic">Proceedings of the
                                   Ninth International conference on Language Resources and Evaluation
                                   (LREC'14), Reykjavik, Iceland</hi> 383-387.</bibl>
-                                  <bibl><rs key="EXMARaLDA" ana="#Bib.Ref #Agent"><hi rend="bold">Schmidt, Thomas / Wörner, Kai </hi>(2014):"EXMARaLDA", in:
+                                  <bibl><rs key="EXMARaLDA" ana="#Bib.Ref"><hi rend="bold">Schmidt, Thomas / Wörner, Kai </hi>(2014):"EXMARaLDA", in:
                                   Durand, Jacques / Gut, Ulrike / Kristoffersen, Giert (eds.): <hi
                                   rend="italic">The Oxford Handbook of Corpus Phonology</hi>. Oxford: OUP
                                   402-419.</rs></bibl>

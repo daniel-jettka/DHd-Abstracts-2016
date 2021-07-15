@@ -138,14 +138,14 @@
                 <ref target="http://www.salsah.org/incunabula"
                   >http://www.salsah.org/incunabula</ref> [letzter Zugriff 15. Februar
                   2016].</bibl>
-                  <bibl><rs key="SALSAH" ana="#Bib.Ref #Agent">
+                  <bibl><rs key="SALSAH" ana="#Bib.Ref">
                     <hi rend="bold">Rosenthaler, Lukas / Schweizer, Tobias</hi> (2012): "SALSAH
                     – eine webbasierte Forschungsplattform für die Geisteswissenschaften", in:
                     <hi rend="italic">SAGW Bulletin </hi>Januar 32-33.</rs></bibl>
-                    <bibl><rs key="SALSAH" ana="#Bib.Ref #Agent"><hi rend="bold">Schingnitz, Barbara / Schweizer, Tobias</hi>: "SALSAH in
+                    <bibl><rs key="SALSAH" ana="#Bib.Ref"><hi rend="bold">Schingnitz, Barbara / Schweizer, Tobias</hi>: "SALSAH in
                     der Nutzung durch die Anton Webern-Gesamtausgabe", in: Ahrend, Thomas / Schmidt, Matthias (eds.) (in Vorbereitung):
                     <hi rend="italic">Webern-Studien</hi>. 3: Webern-Philologien. </rs></bibl>
-                    <bibl><rs key="SALSAH" ana="#Bib.Ref #Agent">
+                    <bibl><rs key="SALSAH" ana="#Bib.Ref">
                       <hi rend="bold">Schweizer, Tobias / Rosenthaler, Lukas</hi> (2011): "SALSAH
                       – eine virtuelle Forschungsumgebung für die Geisteswissenschaften", in: <hi
                       rend="italic">EVA Konferenz 2011 Berlin</hi>. Elektronische Medien &amp;

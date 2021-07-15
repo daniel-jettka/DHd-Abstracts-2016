@@ -284,7 +284,7 @@
                                         rend="italic">Proceedings of LREC 2010: Workshop on Language Resources:
                                         From Storyboard to Sustainability and LR Lifecycle Management</hi>,
                                         Malta. </bibl>
-                                        <bibl><rs key="EXMARaLDA" ana="#Bib.Ref #Agent #URL">
+                                        <bibl><rs key="EXMARaLDA" ana="#Bib.Ref">
                                           <hi rend="bold">Schmidt, Thomas</hi> (2012): "EXMARaLDA and the FOLK tools –
                                           two toolsets for transcribing and annotating spoken language", in: <hi
                                           rend="italic">Proceedings of LREC2012</hi>

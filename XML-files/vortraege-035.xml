@@ -279,7 +279,7 @@
                                       (2008): <anchor xml:id="id_productTitle"/><anchor xml:id="id_title"/><hi
                                       rend="italic">Text Mining</hi>. Wissensrohstoff Text: Konzepte,
                                       Algorithmen, Ergebnisse. W3L-Verlag. </bibl>
-                                      <bibl><rs key="WebLicht" ana="#Bib.Ref #Agent">
+                                      <bibl><rs key="WebLicht" ana="#Bib.Ref">
                                         <hi rend="bold">Hinrichs, Marie / Zastrow, Thomas / Hinrichs, Erhard</hi>
                                         (2010): "WebLicht: Web-based LRT Services in a Distributed eScience
                                         Infrastructure", in: <hi rend="italic">Proceedings of the Seventh

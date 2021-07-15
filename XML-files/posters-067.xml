@@ -173,7 +173,7 @@
                     und Notation interaktionsbegleitender Phänomene (z. B. die Erfassung genutzter
                     Objekte, Kontextinformationen). Um das Problem der mehr oder weniger statischen
                     Beschreibung verbaler Interaktionen in Textdokumenten (Transkript) zu lösen,
-                    werden die Transkripte in das Tool <rs key="EXMARaLDA" ana="#Bib.Ref #Agent">EXMARaLDA (Schmidt / Wörner 2014)</rs> eingelesen.
+                    werden die Transkripte in das Tool <rs key="EXMARaLDA" ana="#Bib.Ref">EXMARaLDA (Schmidt / Wörner 2014)</rs> eingelesen.
                     <rs key="EXMARaLDA">EXMARaLDA</rs> ermöglicht eine Mehrebenen-Annotation. Eine geeignete Annotation von
                     MID in den Interaktionsausschnitten erfordert jedoch eine Erweiterung von
                     <rs key="EXMARaLDA">EXMARaLDA</rs>. Die Erweiterung zielt auf eine größtmögliche Flexibilität in der
@@ -292,7 +292,7 @@
                                                     Thomas / Jakobs, Eva</hi>-<hi rend="bold">Maria</hi> (2015):
                                                     „Annotating Modality Interdependencies“, in: <hi rend="italic">Proceedings
                                                     of the GSCL 2015</hi>: 110-111. </bibl>
-                                                    <bibl><rs key="EXMARaLDA" ana="#Bib.Ref #Agent">
+                                                    <bibl><rs key="EXMARaLDA" ana="#Bib.Ref">
                                                       <hi rend="bold">Schmidt, Thomas / Wörner, Kai </hi>(2014): „EXMARaLDA“, in:
                                                       Durand, Jacques / Gut, Ulrike / Kristoffersen, Gjert (eds.): <hi
                                                       rend="italic">Handbook on Corpus Phonology.</hi> Oxford University

@@ -180,18 +180,18 @@
         <p>Aus den oben genannten Gründen ist der in der Arbeit mit anderen Sprachen gängige
           Arbeitsablauf – zuerst Textkorrektur, dann Annotation – hier nicht möglich. Ein solcher
           ist jedoch bei bereits existierenden Tools Bedingung, wenn eine Mehrebenen-Annotation
-          angestrebt wird. Das <ref target="https://aclweb.org/anthology/W/W14/W14-0612.pdf"
-            >CorA-Tool</ref> (vg. Bollmann et al.) ermöglicht zwar Korrekturen synchron mit der
-          Annotation, jedoch sind nicht mehr als zwei Annotationsebenen möglich; auch eine
-          Mehrwortannotation ist nicht erlaubt. Für die Annotation muss ein XML-Schema des Tagsets
-          vorliegen und es werden alle möglichen Kombinationen von morphologischen Merkmalen je
-          Wortart generiert. Da sämtliche Kombinationsmöglichkeiten dem Benutzer in Form einer
-          Dropdown-Liste präsentiert werden, ist das Tool in der Anwendung mit dem sehr
-          umfangreichen Tagset für das Altäthiopische ungeeignet. Ein anderes Tool, das relativ
-          häufig angewendet wird, ist <rs key="WebAnno" ana="#URL"><ref
-              target="https://www.ukp.tu-darmstadt.de/software/webanno/">WebAnno</ref></rs>. Dieses
-          Tool ermöglicht eine Annotation mit mehr als zwei Ebenen, jedoch sind Korrekturen im Text
-          während der Annotation nicht möglich. </p>
+          angestrebt wird. Das <rs key="CorA" ana="#Bib.Ref"><ref
+              target="https://aclweb.org/anthology/W/W14/W14-0612.pdf">CorA-Tool</ref> (vg. Bollmann
+            et al.)</rs> ermöglicht zwar Korrekturen synchron mit der Annotation, jedoch sind nicht
+          mehr als zwei Annotationsebenen möglich; auch eine Mehrwortannotation ist nicht erlaubt.
+          Für die Annotation muss ein XML-Schema des Tagsets vorliegen und es werden alle möglichen
+          Kombinationen von morphologischen Merkmalen je Wortart generiert. Da sämtliche
+          Kombinationsmöglichkeiten dem Benutzer in Form einer Dropdown-Liste präsentiert werden,
+          ist das Tool in der Anwendung mit dem sehr umfangreichen Tagset für das Altäthiopische
+          ungeeignet. Ein anderes Tool, das relativ häufig angewendet wird, ist <rs key="WebAnno"
+            ana="#URL"><ref target="https://www.ukp.tu-darmstadt.de/software/webanno/"
+            >WebAnno</ref></rs>. Dieses Tool ermöglicht eine Annotation mit mehr als zwei Ebenen,
+          jedoch sind Korrekturen im Text während der Annotation nicht möglich. </p>
         <p>Im TraCES Projekt implementieren wir eine neuartige Architektur, die sowohl Änderungen im
           Text als auch eine Mehrebenen-Annotation ermöglicht.</p>
         <p>Wir betrachten als Grundtext den Originaltext in der altäthiopischen Schrift. Die
@@ -259,13 +259,14 @@
       <div type="bibliogr">
         <listBibl>
           <head>Bibliographie</head>
-          <bibl><hi rend="bold">Bollmann, Marcel / Petran, Florian / Dipper, Stefanie / Krasselt,
-              Julia</hi> (2014): "CorA: A web-based annotation tool for historical and other
-            non-standard language data", in: <hi rend="italic">Proceedings of the 8th Workshop on
-              Language Technology for Cultural Heritage, Social Sciences, and Humanities</hi>,
-            Gothenburg, Sweden 86-90 <ref target="https://aclweb.org/anthology/W/W14/W14-0612.pdf"
-              >https://aclweb.org/anthology/W/W14/W14-0612.pdf</ref> [letzter Zugriff 30. Dezember
-            2015].</bibl>
+          <bibl><rs key="CorA" ana="#Bib.Ref"><hi rend="bold">Bollmann, Marcel / Petran, Florian /
+                Dipper, Stefanie / Krasselt, Julia</hi> (2014): "CorA: A web-based annotation tool
+              for historical and other non-standard language data", in: <hi rend="italic"
+                >Proceedings of the 8th Workshop on Language Technology for Cultural Heritage,
+                Social Sciences, and Humanities</hi>, Gothenburg, Sweden 86-90 <ref
+                target="https://aclweb.org/anthology/W/W14/W14-0612.pdf"
+                >https://aclweb.org/anthology/W/W14/W14-0612.pdf</ref> [letzter Zugriff 30. Dezember
+              2015].</rs></bibl>
           <bibl><rs key="WebAnno" ana="#Bib.Ref"><hi rend="bold"> Castilho, Richard Eckart de /
                 Biemann, Chris / Gurevych, Iryna / Yimam, Seid Muhie</hi> (2014): "WebAnno: a
               flexible, web-based annotation tool for CLARIN", in: <hi rend="italic">Proceedings of
